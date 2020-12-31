@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import computerLeaves from './computer-leaves.jpg';
+import BannerLinks from './BannerLinks';
+// import computerLeaves from './images/computer-leaves.jpg';
+// import rhoneFlute from './images/rhone-flute.png';
+import rhoneFluteDark from './images/rhone-dark-flute.png';
+// import rhoneFluteCloseup from './images/rhone-flute-closeup.png';
 
 export default class HomePage extends Component {
     render() {
@@ -14,25 +18,30 @@ export default class HomePage extends Component {
             </div>
         <form>
             <div className='bannerLinks'>
-                [  ].............[  ].............[  ].............[  ] 
+                <BannerLinks></BannerLinks>
             </div>
 
             <div className='mainImageDiv'>
-                <img className='mainImageComputer'src= {computerLeaves} alt="computer-leaves"></img>
+                {/* <img className='mainImageComputer'src= {computerLeaves} alt="computer-leaves"></img> */}
+                {/* <img className='mainImageRhoneFlute'src= {rhoneFlute} alt="rhone-flute"></img> */}
+                <img className='mainImageRhoneFlute'src= {rhoneFluteDark} alt="rhone-flute"></img>
+                {/* <img className='mainImageRhoneFlute'src= {rhoneFluteCloseup} alt="rhone-flute"></img> */}
+                
             </div>
 
             <div className='bioDiv'>
                 <p className='bioText'>
-                    Rhone is a Full Stack Software Engineer <br/> based in Portland, OR. <br/>
-                    With a creative eye, unyielding passion, and broad skillset, Rhone brings a methodical,
-                    innovative, and wholistic apporoach to all that they do. <br/>
+                    Rhone is a Full Stack Software Engineer <br/> based in Portland, OR. <br/> <br/>
+                    With a creative eye, positive outlook, adaptive resillience, and broad skillset, they bring a
+                    methodical and wholistic apporoach to all that they do. <br/>
+                    Rhone is a creative and innovative problem solver, empathetic team builder, and communicative collaborator thriving in both team and solo environments. <br/><br/>
                     They aim to create memorable, useful, and aesthetically pleasing applications that enrich people's lives,
-                    bridging the gap between the physical and digital worlds.
+                    bridging the gap between the physical and digital worlds. 
+
                 </p>
             </div>
 
-
-
+           
         </form>
         </>
 
