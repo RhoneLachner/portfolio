@@ -36,7 +36,8 @@ body {
   align-self: center;
   flex-wrap: wrap;
   text-align: center;
-  padding-top: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .bannerLinks {
@@ -44,31 +45,44 @@ body {
   display: flex;
   justify-content: center;  
   padding-top: 3%;
+  padding-bottom: 2%;
 }
 
 .linkedIn, .code, .contact, .music {
-  padding-left: 1vh;
-  padding-right: 1vh;
+  margin-left: 4.5vh;
+  margin-right: 4.5vh;
 }
 
 
 .mainImageDiv {
   display: flex;
   justify-content: center;
-  padding-bottom: 2vh;
-  padding-top: 3vh;
+  padding-bottom: 1vh;
+  padding-top:1vh;
+  background-color: black;
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 }
 
 .mainImageComputer, .mainImageRhoneFlute {
   /* height: 14rem; */
-  width: 75%;
-  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+  width: 58%;
+  vertical-align: auto;
 }
 
 .bioDiv {
   display: flex;
   justify-content: center;
   align-self: center;   
+}
+
+.downArrowDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 12%;
+}
+
+.downArrowImage {
+  width: 5%;
 }
 
 .bioText, p {
@@ -80,19 +94,11 @@ body {
   text-justify: auto; */  
   width: 60%;
   font-size: 0.1rem;
-  padding-top: 27%;
+  padding-top: 18%;
   padding-bottom: 15%;
 }
 
-.downArrowDiv {
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
-}
 
-.downArrowImage {
-  width: 5%;
-}
 
 /* glow keyframe animation below */
 
