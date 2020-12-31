@@ -15,7 +15,7 @@ export default class HomePage extends Component {
         </div> */}
 
             <div className="titleName">
-                <h1>RHONE  LACHNER</h1>
+                <h1>RHONE LACHNER</h1>
             </div>
         <form>
             <div className='bannerLinks'>
@@ -40,7 +40,7 @@ export default class HomePage extends Component {
                     
                     With a creative eye, positive outlook, adaptive resillience, and broad skillset, they bring a
                     methodical and wholistic apporoach to all that they do. <br/><br/>
-                    Rhone is a creative and innovative problem solver, empathetic team builder, and communicative collaborator thriving in both team and solo environments. <br/><br/>
+                    Rhone is an innovative problem solver, empathetic team builder, and communicative collaborator thriving in both team and solo environments. <br/><br/>
                     They aim to create memorable, useful, and aesthetically pleasing applications that enrich people's lives,
                     bridging the gap between the physical and digital worlds. 
 

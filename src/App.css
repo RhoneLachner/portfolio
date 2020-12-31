@@ -30,29 +30,31 @@ body {
 } */
 
 .titleName, h1 {
-  font-size: 3.6rem;
+  font-size: 3.8rem;
   display: flex;
   justify-content: center;
   align-self: center;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 5%;
-  margin-bottom: 4.5%;
+  margin-top: 3.8%;
+  margin-bottom: 3%;
+  /* font-family: 'Cinzel Decorative', cursive; */
+  /* font-family: 'Rajdhani', sans-serif; */
+  font-family: 'Kufam', cursive;
+
 }
 
 .bannerLinks {
   align-items: center;
   display: flex;
   justify-content: center;  
-  margin-top: 2.5%;
-  margin-bottom: 2%;
-  
-  
+  margin-top: 3.5%;
+  margin-bottom: 1.1%;
 }
 
 .linkedIn, .code, .contact {
   /* margin-left: 3vh; */
-  margin-right: 2rem;
+  margin-right: 2.8rem;
   display: row;
   justify-content: center;  
 }
@@ -63,7 +65,10 @@ body {
 a:link {
   text-decoration: none;
   color: #282c34;
-  font-size: .95rem;
+  font-size: .9rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+
 }
 
 a:visited {
@@ -75,7 +80,7 @@ a:hover {
   text-decoration: none;
   color: #000000;
   text-shadow: 0 0 .4vh rgb(255, 255, 255);
-  font-size: 1.01rem;
+  font-size: .95rem;
   transition: 0.4s;
 }
 
@@ -93,7 +98,7 @@ a:active {
   margin-top: 0%;
   background-color: black;
   box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
-  width: fit-content;
+  width: auto;
 }
 
 .mainImageComputer, .mainImageRhoneFlute {
@@ -105,18 +110,23 @@ a:active {
 .downArrowDiv {
   display: flex;
   justify-content: center;
-  padding-top: 11%;
+  padding-top: 6.5%;
 }
 
 .downArrowImage {
-  width: 5%;
+  width: 3.4%;
 }
 
 .rhoneIs {
   font-size: 0.8rem;  
-  margin-top: 13%;
+  margin-top: 11%;
   text-align: center;
   font-weight: normal;
+  font-family: 'Rajdhani', sans-serif;
+  /* font-family: 'Xanh Mono', monospace; */
+
+  font-weight:550;
+
   /* font-style: italic; */
 }
 
@@ -133,10 +143,13 @@ a:active {
   text-align: center;
   /* text-align: justify;
   text-justify: auto; */  
-  width: 45%;
-  font-size: 0.6rem;
+  width: 48%;
+  font-size: 0.7rem;
   padding-top: 0.5%;
   padding-bottom: 15%;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+
 }
 
 
