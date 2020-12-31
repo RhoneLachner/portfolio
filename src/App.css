@@ -14,11 +14,11 @@
 }
 
 body {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(210, 207, 207);
   width: 100%;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -27,7 +27,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .titleName, h1 {
   font-size: 3.6rem;
@@ -36,53 +36,94 @@ body {
   align-self: center;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 4.5%;
 }
 
 .bannerLinks {
   align-items: center;
   display: flex;
   justify-content: center;  
-  padding-top: 3%;
-  padding-bottom: 2%;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  
+  
 }
 
-.linkedIn, .code, .contact, .music {
-  margin-left: 4.5vh;
-  margin-right: 4.5vh;
+.linkedIn, .code, .contact {
+  /* margin-left: 3vh; */
+  margin-right: 2rem;
+  display: row;
+  justify-content: center;  
+}
+/* .music {
+  margin-left: 3vh;
+} */
+
+a:link {
+  text-decoration: none;
+  color: #282c34;
+  font-size: .95rem;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #282c34;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 0 0 .4vh rgb(255, 255, 255);
+  font-size: 1.01rem;
+  transition: 0.4s;
+}
+
+a:active {
+  text-decoration: none;
+  color: #282c34;
 }
 
 
 .mainImageDiv {
   display: flex;
   justify-content: center;
-  padding-bottom: 1vh;
-  padding-top:1vh;
+  padding-bottom: 1%;
+  padding-top:1%;
+  margin-top: 0%;
   background-color: black;
   box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+  width: fit-content;
 }
 
 .mainImageComputer, .mainImageRhoneFlute {
   /* height: 14rem; */
-  width: 58%;
+  width: 65%;
   vertical-align: auto;
-}
-
-.bioDiv {
-  display: flex;
-  justify-content: center;
-  align-self: center;   
 }
 
 .downArrowDiv {
   display: flex;
   justify-content: center;
-  padding-top: 12%;
+  padding-top: 11%;
 }
 
 .downArrowImage {
   width: 5%;
+}
+
+.rhoneIs {
+  font-size: 0.8rem;  
+  margin-top: 13%;
+  text-align: center;
+  font-weight: normal;
+  /* font-style: italic; */
+}
+
+.bioDiv, .rhoneIs {
+  display: flex;
+  justify-content: center;
+  align-self: center;   
 }
 
 .bioText, p {
@@ -92,9 +133,9 @@ body {
   text-align: center;
   /* text-align: justify;
   text-justify: auto; */  
-  width: 60%;
-  font-size: 0.1rem;
-  padding-top: 18%;
+  width: 55%;
+  font-size: 0.6rem;
+  padding-top: 0.5%;
   padding-bottom: 15%;
 }
 

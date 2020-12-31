@@ -4,7 +4,7 @@ import BannerLinks from './BannerLinks';
 // import rhoneFlute from './images/rhone-flute.png';
 import rhoneFluteDark from './images/rhone-dark-flute.png';
 // import rhoneFluteCloseup from './images/rhone-flute-closeup.png';
-import downArrow from './images/down-arrow-vector.png';
+import downArrow from './images/down-arrow-pretty.png';
 
 export default class HomePage extends Component {
     render() {
@@ -33,11 +33,13 @@ export default class HomePage extends Component {
             <img className='downArrowImage'src= {downArrow} alt="scroll downward"></img>
             </div>
 
+            <span className="rhoneIs">Rhone is a Full Stack Software Engineer <br/> based in Portland, OR.</span>
+
             <div className='bioDiv'>
                 <p className='bioText'>
-                    Rhone is a Full Stack Software Engineer <br/> based in Portland, OR. <br/> <br/>
+                    
                     With a creative eye, positive outlook, adaptive resillience, and broad skillset, they bring a
-                    methodical and wholistic apporoach to all that they do. <br/>
+                    methodical and wholistic apporoach to all that they do. <br/><br/>
                     Rhone is a creative and innovative problem solver, empathetic team builder, and communicative collaborator thriving in both team and solo environments. <br/><br/>
                     They aim to create memorable, useful, and aesthetically pleasing applications that enrich people's lives,
                     bridging the gap between the physical and digital worlds. 
