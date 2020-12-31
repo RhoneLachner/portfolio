@@ -13,6 +13,11 @@
   }
 }
 
+body {
+  background-color: rgb(219, 219, 219);
+  width: 100%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +28,58 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.titleName, h1 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.bannerLinks {
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  padding-top: 5%;
+}
+
+.mainImageDiv {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2vh;
+  padding-top: 3.5vh;
+}
+
+.mainImageComputer {
+  width: 55%;
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.429);
+}
+
+.bioDiv {
+  display: flex;
+  justify-content: center;
+  align-self: center;   
+}
+
+.bioText, p {
+  display: flex;
+  justify-content: center;  
+  align-self: center;
+  text-align: center;
+  /* text-align: justify;
+  text-justify: auto; */  
+  width: 60%;
+  font-size: 0.1rem;
+  padding-top: 20%;
+  padding-bottom: 5%;
+}
+
+
+
+/* glow keyframe animation below */
 
 .container {
   display: flex;
