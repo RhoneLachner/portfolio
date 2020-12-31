@@ -30,20 +30,20 @@ body {
 }
 
 .titleName, h1 {
-  font-size: 3.2rem;
+  font-size: 3.6rem;
   display: flex;
   justify-content: center;
   align-self: center;
   flex-wrap: wrap;
   text-align: center;
-  padding-top: 3vh;
+  padding-top: 1%;
 }
 
 .bannerLinks {
   align-items: center;
   display: flex;
   justify-content: center;  
-  padding-top: 8%;
+  padding-top: 3%;
 }
 
 .linkedIn, .code, .contact, .music {
@@ -56,11 +56,12 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 2vh;
-  padding-top: 3.5vh;
+  padding-top: 3vh;
 }
 
 .mainImageComputer, .mainImageRhoneFlute {
-  width: 70%;
+  /* height: 14rem; */
+  width: 75%;
   box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 }
 
@@ -80,10 +81,18 @@ body {
   width: 60%;
   font-size: 0.1rem;
   padding-top: 27%;
-  padding-bottom: 5%;
+  padding-bottom: 15%;
 }
 
+.downArrowDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
 
+.downArrowImage {
+  width: 5%;
+}
 
 /* glow keyframe animation below */
 

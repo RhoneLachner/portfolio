@@ -4,6 +4,7 @@ import BannerLinks from './BannerLinks';
 // import rhoneFlute from './images/rhone-flute.png';
 import rhoneFluteDark from './images/rhone-dark-flute.png';
 // import rhoneFluteCloseup from './images/rhone-flute-closeup.png';
+import downArrow from './images/down-arrow-vector.png';
 
 export default class HomePage extends Component {
     render() {
@@ -26,7 +27,10 @@ export default class HomePage extends Component {
                 {/* <img className='mainImageRhoneFlute'src= {rhoneFlute} alt="rhone-flute"></img> */}
                 <img className='mainImageRhoneFlute'src= {rhoneFluteDark} alt="rhone-flute"></img>
                 {/* <img className='mainImageRhoneFlute'src= {rhoneFluteCloseup} alt="rhone-flute"></img> */}
-                
+            </div>
+
+            <div className="downArrowDiv">
+            <img className='downArrowImage'src= {downArrow} alt="scroll downward"></img>
             </div>
 
             <div className='bioDiv'>
