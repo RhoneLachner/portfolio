@@ -36,8 +36,8 @@ body {
   align-self: center;
   flex-wrap: wrap;
   text-align: center;
-  margin-top: 3.8%;
-  margin-bottom: 3%;
+  margin-top: 4%;
+  margin-bottom: 4.2%;
   /* font-family: 'Cinzel Decorative', cursive; */
   /* font-family: 'Rajdhani', sans-serif; */
   font-family: 'Kufam', cursive;
@@ -49,18 +49,14 @@ body {
   display: flex;
   justify-content: center;  
   margin-top: 3.5%;
-  margin-bottom: 1.1%;
+  margin-bottom: 1.2%;
 }
 
 .linkedIn, .code, .contact {
-  /* margin-left: 3vh; */
   margin-right: 2.8rem;
   display: row;
   justify-content: center;  
 }
-/* .music {
-  margin-left: 3vh;
-} */
 
 a:link {
   text-decoration: none;
@@ -89,7 +85,6 @@ a:active {
   color: #282c34;
 }
 
-
 .mainImageDiv {
   display: flex;
   justify-content: center;
@@ -102,8 +97,7 @@ a:active {
 }
 
 .mainImageComputer, .mainImageRhoneFlute {
-  /* height: 14rem; */
-  width: 65%;
+  width: 85%;
   vertical-align: auto;
 }
 
@@ -113,21 +107,27 @@ a:active {
   padding-top: 6.5%;
 }
 
+.secondDownArrowDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 0%;
+}
+
 .downArrowImage {
-  width: 3.4%;
+  width: 4%;
+}
+
+.secondDownArrowImage {
+  width: 2.5%;
 }
 
 .rhoneIs {
   font-size: 0.8rem;  
-  margin-top: 11%;
+  margin-top: 7%;
   text-align: center;
   font-weight: normal;
   font-family: 'Rajdhani', sans-serif;
-  /* font-family: 'Xanh Mono', monospace; */
-
   font-weight:550;
-
-  /* font-style: italic; */
 }
 
 .bioDiv, .rhoneIs {
@@ -140,44 +140,75 @@ a:active {
   display: flex;
   justify-content: center;  
   align-self: center;
-  text-align: center;
-  /* text-align: justify;
-  text-justify: auto; */  
+  text-align: center; 
   width: 48%;
   font-size: 0.7rem;
   padding-top: 0.5%;
-  padding-bottom: 15%;
+  margin-bottom: 7%;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 400;
-
 }
 
+.computer__image {
+  width: 50%;
+  height: 25%;
+  box-shadow: 1.5vh 1.5vh 3vh rgba(0, 0, 0, 0.408);
+}
 
+.techStackTop {
+  display: flex;
+  justify-content: left;
+  font-size: 0.8rem; 
+  font-weight: 500;
+  text-align: left;
+  text-justify: left;
+  align-self: left;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
 
-/* glow keyframe animation below */
+.techStackList {
+  font-size: 0.65rem;
+  text-align: left;
+  text-justify: left;
+  width: 100%;
+  margin-right: 5%;
+  color: black;
+}
+
+.techStack__text {
+  font-family: 'Rajdhani', sans-serif;  
+  margin-top:0%;
+  margin-left: 5%;
+  margin-right: 2%;
+  align-content: right;
+  width: 100%; 
+  vertical-align: text-top;
+}
 
 .container {
-  display: flex;
-  justify-content: center;
-  margin-top: 12%;
-  color: #fff;
-  text-align: center; 
+  display:flex;
+  width: auto;
+  margin-top: 0;
+  margin-right:45%;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
-.glow {
-  animation: glow 2s ease-in-out infinite alternate;
+.container > img {
+float: left;
+width: 32%;
+height: 32%;
+margin-left: 10%;
+margin-right: .5%;
+margin-top: 0;
+vertical-align: 50%;
 }
 
-@keyframes glow {
-  from {
-  
-  text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0    40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  to {
-  
-  text-shadow:  0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
-}
+
 
 
 
