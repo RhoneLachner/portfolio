@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BannerLinks from './BannerLinks';
 import Bio from './Bio.js';
 import TechStack from './TechStack.js';
+import Projects from './Projects.js';
 
 import rhoneFluteDark from './images/rhone-dark-flute.png';
 import downArrow from './images/down-arrow-pretty.png';
@@ -29,6 +30,12 @@ export default class HomePage extends Component {
 
                 <Bio></Bio>  
   
+                <div className="secondDownArrowDiv">
+                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                </div>
+
+                <Projects></Projects>
+
                 <div className="secondDownArrowDiv">
                      <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
                 </div>
