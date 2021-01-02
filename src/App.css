@@ -31,6 +31,10 @@ body {
   color: white;
 } */
 
+.titleName {
+  max-width: 100%;
+}
+
 .titleName, h1 {
   font-size: 5rem;
   display: flex;
@@ -42,8 +46,7 @@ body {
   margin-bottom: 4%;
   /* font-family: 'Cinzel Decorative', cursive; */
   /* font-family: 'Rajdhani', sans-serif; */
-  font-family: 'Kufam', cursive;
-
+  font-family: 'Kufam', cursive; 
 }
 
 .bannerLinks {
@@ -116,6 +119,8 @@ a:active {
   height: auto;
   /* height: 100%; */
   /* max-height: 25%; */
+  max-width: 120vh;
+  max-height: inherit;
  
   
   /* vertical-align: auto; */
