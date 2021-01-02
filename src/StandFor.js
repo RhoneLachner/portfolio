@@ -26,7 +26,7 @@ export default class StandFor extends Component {
                             Anti-Ableism <br/>
                             Body-positivity <br/>
                             Downfall of Patriarchy <br/>                                                   
-                            Community & collabiration <br/>      
+                            Community & collaboration <br/>      
                             Mutual-Aide <br/>
                             Genuine connection and honesty in all things <br/>
                             Mental Health advocacy <br/>
