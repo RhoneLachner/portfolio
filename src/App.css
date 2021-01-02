@@ -101,6 +101,7 @@ a:active {
 
 .mainImageComputer, .mainImageRhoneFlute {
   width: 85%;
+  height: auto;
   vertical-align: auto;
 }
 
@@ -118,6 +119,7 @@ a:active {
 
 .downArrowImage {
   width: 4%;
+  height: 4%;
 }
 
 .secondDownArrowImage {
