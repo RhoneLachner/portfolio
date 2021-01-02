@@ -13,7 +13,14 @@
   }
 }
 
-.App-header {
+body {
+  background-color: rgb(210, 207, 207);
+  
+  height:100%;
+  
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,31 +29,512 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.titleName, h1 {
+  font-size: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  /* font-family: 'Cinzel Decorative', cursive; */
+  /* font-family: 'Rajdhani', sans-serif; */
+  font-family: 'Kufam', cursive;
+
+}
+
+.bannerLinks {
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+  margin-top: 3.5%;
+  margin-bottom: 1.2%;
+}
+
+.linkedIn, .code, .contact {
+  margin-right: 2.8rem;
+  display: row;
+  justify-content: center;  
+}
+
+a:link {
+  text-decoration: none;
+  color: #282c34;
+  font-size: .9rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: #282c34;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 0 0 .4vh rgb(255, 255, 255);
+  font-size: .95rem;
+  transition: 0.4s;
+}
+
+a:active {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.mainImageDiv {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+  padding-top:1%;
+  margin-top: 0%;
+  background-color: black;
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+  width: auto;
+}
+
+.mainImageComputer, .mainImageRhoneFlute {
+  width: 85%;
+  vertical-align: auto;
+}
+
+.downArrowDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 6.5%;
+}
+
+.secondDownArrowDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 0%;
+}
+
+.downArrowImage {
+  width: 4%;
+}
+
+.secondDownArrowImage {
+  width: 2.5%;
+}
+
+.rhoneIs {
+  font-size: 0.8rem;  
+  margin-top: 7%;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight:550;
+}
+
+.bioDiv, .rhoneIs {
+  display: flex;
+  justify-content: center;
+  align-self: center;   
+}
+
+.bioText, p {
+  display: flex;
+  justify-content: center;  
+  align-self: center;
+  text-align: center; 
+  width: 48%;
+  font-size: 0.7rem;
+  padding-top: 0.5%;
+  margin-bottom: 7%;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+}
+
+.projectTitle, .projectItemTitle, .projectItem {
+  display: flex;
+  justify-content: center;  
+  align-self: center;
+  text-align: center; 
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+}
+
+
+
+h2, .projectTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 5%;
+  margin-bottom: 2%;
+}
+
+.projectItemTitle {
+font-size: .8rem;
+font-weight: 590;
+margin-bottom: 1%;;
+}
+
+.projectItem {
+  font-size: 0.7rem;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.projectLink {
+  display: flex;
+  justify-content: center;  
+  align-self: center;
+  text-align: center; 
+  margin-top: 1%;
+  margin-bottom: 6%;;
+  font-size: .8rem;
+}
+
+.projectLink:hover {
+  font-size: .85rem;
+  transition: 0.3s;
+
+}
+
+.computer__image, .places__image {
+  width: 50%;
+  height: 25%;
+  box-shadow: 1.5vh 1.5vh 3vh rgba(0, 0, 0, 0.408);
+}
+
+.techStackTop {
+  display: flex;
+  justify-content: left;
+  font-size: 0.8rem; 
+  font-weight: 500;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
+
+.techStackList {
+  font-size: 0.65rem;
+  text-align: left;
+  text-justify: left;
+  width: 100%;
+  color: black;
+}
+
+.techStack__text {
+  font-family: 'Rajdhani', sans-serif;  
+  margin-top:0%;
+  margin-left: 5%;
+  margin-right: 2%;
+  align-content: right;
+  width: 100%; 
+  vertical-align: text-top;
 }
 
 .container {
+  display:flex;
+  width: auto;
+  margin-top: 0;
+  margin-right:45%;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.container > img {
+float: left;
+width: 32%;
+height: 32%;
+margin-left: 10%;
+margin-right: .5%;
+margin-top: 3%;
+vertical-align: 50%;
+}
+
+
+
+
+.placesTop {
+  display: flex;
+  justify-self: right;
+  font-size: 0.8rem; 
+  font-weight: 500;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  color: black;
+
+  
+}
+
+.placesList {
+  display: flex;
+  align-content: right;
+  font-size: 0.65rem;
+  text-align: right;
+  text-justify: right;
+  width: 100%;  
+  color: black;
+}
+
+.places__text {
+  display: flex;
+  flex-direction: column;
+  justify-self: right;
+  font-family: 'Rajdhani', sans-serif;  
+  margin-top:0%;
+  margin-right: 0%;
+  align-content: right;
+  /* width: 100%;  */
+  vertical-align: text-top;
+  
+}
+
+.placesContainer {
+  margin-left: 60%;
+  display:flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.placesList, .placesTop {
+  display:flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+}
+
+
+.places__image {
+  display: flex;
+  align-self: right;
+float: right;
+width: 43%;
+height: 43%;
+margin-left: 8%;
+margin-right: 7%;
+margin-top: 3%;
+vertical-align: 50%;
+}
+
+.plant__image {
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+}
+
+.standForTop {
+  display: flex;
+  justify-content: left;
+  font-size: 0.8rem; 
+  font-weight: 500;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
+
+.standForList {
+  font-size: 0.65rem;
+  text-align: left;
+  text-justify: left;
+  width: 100%;
+  color: black;
+}
+
+.standFor__text {
+  font-family: 'Rajdhani', sans-serif;  
+  margin-top:0%;
+  margin-left: 5%;
+  margin-right: 2%;
+  align-content: right;
+  width: 100%; 
+  vertical-align: text-top;
+}
+
+
+.skillsTop {
+  display: flex;
+  justify-self: right;
+  font-size: 0.8rem; 
+  font-weight: 500;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  color: black;
+
+  
+}
+
+.skillsList {
+  display: flex;
+  align-content: right;
+  font-size: 0.65rem;
+  text-align: right;
+  text-justify: right;
+  width: 100%;  
+  color: black;
+}
+
+.skills__text {
+  display: flex;
+  flex-direction: column;
+  justify-self: right;
+  font-family: 'Rajdhani', sans-serif;  
+  margin-top:0%;
+  margin-right: 0%;
+  align-content: right;
+  /* width: 100%;  */
+  vertical-align: text-top;
+  
+}
+
+.skillsContainer {
+  margin-left: 50%;
+  display:flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.skillsList, .skillsTop {
+  display:flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+}
+
+
+.skills__image {
+  display: flex;
+  align-self: right;
+float: right;
+width: 35%;
+height: 35%;
+margin-left: 8%;
+margin-right: 7%;
+margin-top: 3%;
+vertical-align: 50%;
+box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+}
+
+
+
+
+
+
+
+
+.sayHi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  height: 80vh;
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: center;
-  margin-top: 12%;
-  color: #fff;
-  text-align: center; 
+  align-self: center; 
 }
 
-.glow {
-  animation: glow 2s ease-in-out infinite alternate;
+.thankYouText {
+  display:flex;
+  justify-content: center;
+  align-self: center; 
+  text-align: center;
+  margin-top: 2%;
+  font-size: .8rem;
+  color: rgba(255, 255, 255, 0.661);
+  font-family: 'Rajdhani', sans-serif;
 }
 
-@keyframes glow {
-  from {
-  
-  text-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0    40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  to {
-  
-  text-shadow:  0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
+.sayHiText {
+  display:flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 3%;
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
 }
 
+.sayHiLinks {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center; 
+  margin-top: 8%;
+  width: 100%
+}
+
+.sayHiLinks > a {
+  color: rgba(255, 255, 255, 0.716);
+  font-size: .9rem;
+}
+.sayHiLinks > a:hover {
+font-size: 1rem;
+}
+
+.toTop, .contactHi {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
+.musicPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-self: center; 
+}
+
+.musicText {
+  text-align: center;
+}
+
+.backToHomeDiv {
+  margin-top: 10%;
+}
+
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-self: center; 
+}
+
+contactPage {
+  text-align: center;
+}
 
 
 .App-link {
