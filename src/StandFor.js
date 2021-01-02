@@ -28,7 +28,7 @@ export default class StandFor extends Component {
                             Trans Rights <br/>
                             Downfall of Patriarchy <br/>                                                   
                             Community & collaboration <br/>      
-                            Mutual-Aide <br/>
+                            Mutual-Aid <br/>
                             Genuine connection and honesty in all things <br/>
                             Mental Health advocacy <br/>
                             Holding people up! instead of pulling them down <br/>
