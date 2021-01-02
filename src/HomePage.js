@@ -3,6 +3,10 @@ import BannerLinks from './BannerLinks';
 import Bio from './Bio.js';
 import TechStack from './TechStack.js';
 import Projects from './Projects.js';
+import PlacesHome from './PlacesHome.js';
+import StandFor from './StandFor.js';
+import MiscSkills from './MiscSkills';
+import SayHello from './SayHello.js';
 
 import rhoneFluteDark from './images/rhone-dark-flute.png';
 import downArrow from './images/down-arrow-pretty.png';
@@ -45,6 +49,26 @@ export default class HomePage extends Component {
                 <div className="secondDownArrowDiv">
                      <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
                 </div>
+                
+                <PlacesHome></PlacesHome>
+
+                <div className="secondDownArrowDiv">
+                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                </div>
+
+                <StandFor></StandFor>
+
+                <div className="secondDownArrowDiv">
+                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                </div>
+
+                <MiscSkills></MiscSkills>
+
+                <div className="secondDownArrowDiv">
+                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                </div>
+
+                <SayHello></SayHello>
 
         </form>
         </>
