@@ -32,7 +32,7 @@ body {
 } */
 
 .titleName, h1 {
-  font-size: 3.8rem;
+  font-size: 5rem;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -63,7 +63,7 @@ body {
 a:link {
   text-decoration: none;
   color: #282c34;
-  font-size: .9rem;
+  font-size: 1.4rem;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 500;
 
@@ -78,7 +78,7 @@ a:hover {
   text-decoration: none;
   color: #000000;
   text-shadow: 0 0 .4vh rgb(255, 255, 255);
-  font-size: .95rem;
+  font-size: 1.5rem;
   transition: 0.4s;
 }
 
@@ -124,7 +124,7 @@ a:active {
 }
 
 .rhoneIs {
-  font-size: 0.8rem;  
+  font-size: 1.5rem;  
   margin-top: 7%;
   text-align: center;
   font-weight: normal;
@@ -144,7 +144,7 @@ a:active {
   align-self: center;
   text-align: center; 
   width: 48%;
-  font-size: 0.7rem;
+  font-size: 1rem;
   padding-top: 0.5%;
   margin-bottom: 7%;
   font-family: 'Rajdhani', sans-serif;
@@ -163,14 +163,14 @@ a:active {
 
 
 h2, .projectTitle {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   padding-top: 5%;
   margin-bottom: 2%;
 }
 
 .projectItemTitle {
-font-size: .8rem;
+font-size: 1.1rem;
 font-weight: 590;
 margin-bottom: 1%;;
 }
@@ -179,6 +179,7 @@ margin-bottom: 1%;;
   font-size: 0.7rem;
   margin-right: 15%;
   margin-left: 15%;
+  font-size: 1rem;
 }
 
 .projectLink {
@@ -188,11 +189,11 @@ margin-bottom: 1%;;
   text-align: center; 
   margin-top: 1%;
   margin-bottom: 6%;;
-  font-size: .8rem;
+  font-size: 1.1rem;
 }
 
 .projectLink:hover {
-  font-size: .85rem;
+  font-size: 1.2rem;
   transition: 0.3s;
 
 }
@@ -206,7 +207,7 @@ margin-bottom: 1%;;
 .techStackTop {
   display: flex;
   justify-content: left;
-  font-size: 0.8rem; 
+  font-size: 1rem; 
   font-weight: 500;
   padding: 0%;
   width: 100%;
@@ -214,7 +215,7 @@ margin-bottom: 1%;;
 }
 
 .techStackList {
-  font-size: 0.65rem;
+  font-size: 1rem;
   text-align: left;
   text-justify: left;
   width: 100%;
@@ -256,8 +257,9 @@ vertical-align: 50%;
 
 .placesTop {
   display: flex;
+  text-align: right;
   justify-self: right;
-  font-size: 0.8rem; 
+  font-size: 1rem; 
   font-weight: 500;
   margin: 0%;
   padding: 0%;
@@ -267,10 +269,15 @@ vertical-align: 50%;
   
 }
 
+.skills__text > .skillsTop {
+  text-align: right ;
+  margin-left: 65%;
+}
+
 .placesList {
   display: flex;
   align-content: right;
-  font-size: 0.65rem;
+  font-size: 1rem;
   text-align: right;
   text-justify: right;
   width: 100%;  
@@ -284,6 +291,7 @@ vertical-align: 50%;
   font-family: 'Rajdhani', sans-serif;  
   margin-top:0%;
   margin-right: 0%;
+  margin-left: 8%;
   align-content: right;
   /* width: 100%;  */
   vertical-align: text-top;
@@ -334,15 +342,17 @@ vertical-align: 50%;
 .standForTop {
   display: flex;
   justify-content: left;
-  font-size: 0.8rem; 
+  font-size: 1rem; 
   font-weight: 500;
+  margin-left: 5%;
+  margin-right: 10%;
   padding: 0%;
   width: 100%;
   color: black;
 }
 
 .standForList {
-  font-size: 0.65rem;
+  font-size: 1rem;
   text-align: left;
   text-justify: left;
   width: 100%;
@@ -353,7 +363,7 @@ vertical-align: 50%;
   font-family: 'Rajdhani', sans-serif;  
   margin-top:0%;
   margin-left: 5%;
-  margin-right: 2%;
+  margin-right: 10%;
   align-content: right;
   width: 100%; 
   vertical-align: text-top;
@@ -363,8 +373,10 @@ vertical-align: 50%;
 .skillsTop {
   display: flex;
   justify-self: right;
-  font-size: 0.8rem; 
+  font-size: 1rem; 
   font-weight: 500;
+  margin-left: 15%;
+  margin-right: 5%;
   margin: 0%;
   padding: 0%;
   width: 100%;
@@ -376,7 +388,7 @@ vertical-align: 50%;
 .skillsList {
   display: flex;
   align-content: right;
-  font-size: 0.65rem;
+  font-size: 1rem;
   text-align: right;
   text-justify: right;
   width: 100%;  
@@ -389,8 +401,10 @@ vertical-align: 50%;
   justify-self: right;
   font-family: 'Rajdhani', sans-serif;  
   margin-top:0%;
+  margin-left: 5%;
   margin-right: 0%;
   align-content: right;
+  
   /* width: 100%;  */
   vertical-align: text-top;
   
@@ -460,7 +474,7 @@ box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
   align-self: center; 
   text-align: center;
   margin-top: 2%;
-  font-size: .8rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.661);
   font-family: 'Rajdhani', sans-serif;
 }
@@ -470,7 +484,7 @@ box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
   justify-content: center;
   align-self: center;
   margin-top: 3%;
-  font-size: 5rem;
+  font-size: 8rem;
   text-align: center;
   font-family: 'Rajdhani', sans-serif;
 }
@@ -486,10 +500,10 @@ box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 
 .sayHiLinks > a {
   color: rgba(255, 255, 255, 0.716);
-  font-size: .9rem;
+  font-size: 1.1rem;
 }
 .sayHiLinks > a:hover {
-font-size: 1rem;
+font-size: 1.2rem;
 }
 
 .toTop, .contactHi {
@@ -509,10 +523,12 @@ font-size: 1rem;
   display: flex;
   justify-content: center;
   align-self: center; 
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .musicText {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .backToHomeDiv {
@@ -530,10 +546,13 @@ font-size: 1rem;
   display: flex;
   justify-content: center;
   align-self: center; 
+  font-family: 'Rajdhani', sans-serif;
 }
 
-contactPage {
+.contactText {
   text-align: center;
+  font-size: 1.5rem;
+  
 }
 
 
