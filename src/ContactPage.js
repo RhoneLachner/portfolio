@@ -7,7 +7,7 @@ export default class ContactPage extends Component {
             <div className="contactPage">
 
             <div className="contactText">
-                PAGE CURRENTLY UNDER CONSTRUCTION. <br/>
+                CONTACT PAGE CURRENTLY UNDER CONSTRUCTION. <br/>
                 Thank you for visiting!
             </div>
 

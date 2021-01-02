@@ -7,7 +7,7 @@ export default class MusicPage extends Component {
             <div className="musicPage">
                 
             <div className="musicText">
-                PAGE CURRENTLY UNDER CONSTRUCTION. <br/>
+                MUSIC PAGE CURRENTLY UNDER CONSTRUCTION. <br/>
                 Thank you for visiting!
             </div>
 

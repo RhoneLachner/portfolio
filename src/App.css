@@ -327,6 +327,9 @@ margin-top: 3%;
 vertical-align: 50%;
 }
 
+.plant__image {
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+}
 
 .standForTop {
   display: flex;
@@ -355,6 +358,82 @@ vertical-align: 50%;
   width: 100%; 
   vertical-align: text-top;
 }
+
+
+.skillsTop {
+  display: flex;
+  justify-self: right;
+  font-size: 0.8rem; 
+  font-weight: 500;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  color: black;
+
+  
+}
+
+.skillsList {
+  display: flex;
+  align-content: right;
+  font-size: 0.65rem;
+  text-align: right;
+  text-justify: right;
+  width: 100%;  
+  color: black;
+}
+
+.skills__text {
+  display: flex;
+  flex-direction: column;
+  justify-self: right;
+  font-family: 'Rajdhani', sans-serif;  
+  margin-top:0%;
+  margin-right: 0%;
+  align-content: right;
+  /* width: 100%;  */
+  vertical-align: text-top;
+  
+}
+
+.skillsContainer {
+  margin-left: 50%;
+  display:flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.skillsList, .skillsTop {
+  display:flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  
+}
+
+
+.skills__image {
+  display: flex;
+  align-self: right;
+float: right;
+width: 35%;
+height: 35%;
+margin-left: 8%;
+margin-right: 7%;
+margin-top: 3%;
+vertical-align: 50%;
+box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+}
+
 
 
 

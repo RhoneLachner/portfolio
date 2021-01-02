@@ -5,26 +5,28 @@ export default class MiscSkills extends Component {
     render() {
         return (
             <>
-            <div className='placesContainer'>            
+            <div className='skillsContainer'>            
                      
-                    <div className='places__text'>             
-                        <p className='placesTop'> 
+                    <div className='skills__text'>             
+                        <p className='skillsTop'> 
                             Misc. Skills: 
                         </p>
-                        <p className='placesList'>  
+                        <p className='skillsList'>  
                                            
-                            TEXT TEXT TEXT TEXT TEXT <br/>
-                            TEXT TEXT TEXT TEXT TEXT <br/>
-                            TEXT TEXT TEXT TEXT TEXT <br/>    
-                            TEXT TEXT TEXT TEXT TEXT <br/>                                                    
-                            TEXT TEXT TEXT TEXT TEXT <br/>                            
-                            TEXT TEXT TEXT TEXT TEXT <br/>      
-                            TEXT TEXT TEXT TEXT TEXT <br/>
+                            Licensed Massage Therapy <br/>
+                            Western Herbal Medicine <br/>
+                            Ancestral survival skills <br/>    
+                            Homesteading <br/>
+                            Sustainable Gardening <br/>
+                            Music Composition & Performance <br/>                                                    
+                            Digital Photography <br/>                            
+                            Natal Chart Astrology Readings <br/>      
+                            Firearm Safety Training <br/>
                            
                         </p>                                   
                     </div>
 
-                    <img className='places__image'src= {medicine} alt="herbal medicine"></img>           
+                    <img className='skills__image'src= {medicine} alt="herbal medicine"></img>           
                         
             </div>
             </>
