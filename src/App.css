@@ -97,12 +97,14 @@ a:active {
   box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
   width: auto;
   height: auto;
+  position: relative;
 }
 
 .mainImageComputer, .mainImageRhoneFlute {
   width: 85%;
   height: auto;
   vertical-align: auto;
+  position:absolute;
 }
 
 .downArrowDiv {
