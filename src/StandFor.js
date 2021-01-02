@@ -18,6 +18,7 @@ export default class StandFor extends Component {
                             <p className='standForList'>  
                                             
                             Equality for all genders<br/>
+                            
                             Anti-Racism <br/>
                             Anti-Fascism <br/>   
                             Anti-Classism <br/> 
