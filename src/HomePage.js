@@ -15,7 +15,10 @@ import downArrow from './images/down-arrow-pretty.png';
 export default class HomePage extends Component {
     render() {
         return (
+
         <>      
+                 <a name="top"></a>
+
                 <div className="titleName">
                     <h1>RHONE LACHNER</h1>
                 </div>

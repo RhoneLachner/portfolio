@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import places from './images/house-forest.png';
+import medicine from './images/medicine.png';
 
 export default class MiscSkills extends Component {
     render() {
@@ -9,23 +9,22 @@ export default class MiscSkills extends Component {
                      
                     <div className='places__text'>             
                         <p className='placesTop'> 
-                            Places I call Home: 
+                            Misc. Skills: 
                         </p>
                         <p className='placesList'>  
                                            
-                            Portland, OR <br/>
-                            Southern Oregon <br/>
-                            Northern California <br/>
-                            BC, Canada <br/>
-                            Reno, NV <br/>
-                            PNW Forests <br/>
-                            High altitude deserts <br/>
-                            Many more TBD 
+                            TEXT TEXT TEXT TEXT TEXT <br/>
+                            TEXT TEXT TEXT TEXT TEXT <br/>
+                            TEXT TEXT TEXT TEXT TEXT <br/>    
+                            TEXT TEXT TEXT TEXT TEXT <br/>                                                    
+                            TEXT TEXT TEXT TEXT TEXT <br/>                            
+                            TEXT TEXT TEXT TEXT TEXT <br/>      
+                            TEXT TEXT TEXT TEXT TEXT <br/>
                            
                         </p>                                   
                     </div>
 
-                    <img className='places__image'src= {places} alt="house in forest"></img>           
+                    <img className='places__image'src= {medicine} alt="herbal medicine"></img>           
                         
             </div>
             </>

@@ -13,17 +13,17 @@ export default class StandFor extends Component {
 
                         <div className='standFor__text'>             
                             <p className='standForTop'> 
-                                Current Tech Stack 2021: 
+                                Things I stand for:
                             </p>
                             <p className='standForList'>  
                                             
-                                LANGUAGES ▸ Javascript, HTML, CSS <br/>
-                                FRONT END ▸ React, Redux <br/>
-                                BACK END ▸ NodeJs, Express <br/>
-                                TESTING ▸ Jest, QUnit <br/>
-                                DATABASES ▸ SQL <br/>
-                                TOOLS ▸ VS Code, Github, Slack, Heroku, Postman, Netlify, Photoshop, GarageBand <br/>
-                                STACK ▸ MERN 
+                            TEXT TEXT TEXT TEXT TEXT <br/>
+                            TEXT TEXT TEXT TEXT TEXT <br/>
+                            TEXT TEXT TEXT TEXT TEXT <br/>    
+                            TEXT TEXT TEXT TEXT TEXT <br/>                                                    
+                            TEXT TEXT TEXT TEXT TEXT <br/>                            
+                            TEXT TEXT TEXT TEXT TEXT <br/>      
+                            TEXT TEXT TEXT TEXT TEXT <br/>
                             </p>                                   
                         </div>
                 </div>
