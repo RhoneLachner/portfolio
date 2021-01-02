@@ -104,14 +104,14 @@ a:active {
   align-self: center;
   justify-self: center;
   /* max-height: 100vh; */
-  height: auto;
+  height: 65vh;
   position: relative;
   
   /* max-width: 110vh;
   max-height: inherit; */
 
-  max-height: auto;
-  max-width: 100%;
+  max-height: 65vh;
+  max-width: auto;
   min-width: 100%;
   
 
@@ -134,8 +134,8 @@ a:active {
   max-height: 100vh; */
  
   max-height:inherit;
-  max-width: 80%;
-  /* min-width: auto; */
+  max-width: auto;
+  min-width: auto;
   
   /* vertical-align: auto; */
   /* position: inherit; */
