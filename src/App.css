@@ -15,21 +15,9 @@
 
 body {
   background-color: rgb(210, 207, 207);
- 
   height:100%;
-  
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
 
 .titleName {
   max-width: 100%;
@@ -46,8 +34,6 @@ body {
   margin-bottom: 4%;
   margin-right: 1%;
   margin-left: 1%;
-  /* font-family: 'Cinzel Decorative', cursive; */
-  /* font-family: 'Rajdhani', sans-serif; */
   font-family: 'Kufam', cursive; 
 }
 
@@ -103,55 +89,21 @@ a:active {
   width: 100%;
   align-self: center;
   justify-self: center;
-  /* max-height: 100vh; */
   height: 70%;
   position: relative;
-  
-  /* max-width: 110vh;
-  max-height: inherit; */
-
   max-height: 70%;
   max-width: 100%;
   min-width: 100%;
-  
-
-  /* max-height: 100vh;
-  max-width: inherit; */
-
-
-
-  /* height: 100%; */
 }
 
 .mainImageDiv > .mainImageRhoneFlute {
-  
-  /* width: 100vh;
-  height: auto; */
-  
   width: 80%;
   height: inherit;
- 
   justify-self:center;
   justify-items: center;
   align-self: center;
   align-content: center;
-
   max-height: 100vh;
-
-  /* height: 100%; */
-  /* max-height: 25%; */
-
-  /* max-width: 80vh;
-  max-height: 100vh; */
- 
-  /* max-height:60vh;
-  min-height: inherit;
-  max-width: 100vh;
-  min-width: 100vh; */
-  
-  /* vertical-align: auto; */
-  /* position: inherit; */
-  /* display: block */
 }
 
 .downArrowDiv {
@@ -212,8 +164,6 @@ a:active {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 400;
 }
-
-
 
 h2, .projectTitle {
   font-size: 1.5rem;
@@ -305,9 +255,6 @@ margin-top: 3%;
 vertical-align: 50%;
 }
 
-
-
-
 .placesTop {
   display: flex;
   text-align: right;
@@ -318,8 +265,6 @@ vertical-align: 50%;
   padding: 0%;
   width: 100%;
   color: black;
-
-  
 }
 
 .skills__text > .skillsTop {
@@ -346,9 +291,7 @@ vertical-align: 50%;
   margin-right: 0%;
   margin-left: 8%;
   align-content: right;
-  /* width: 100%;  */
   vertical-align: text-top;
-  
 }
 
 .placesContainer {
@@ -372,20 +315,18 @@ vertical-align: 50%;
   align-self: right;
   margin-bottom: 5%;
   margin-top: 5%;
-  
 }
-
 
 .places__image {
   display: flex;
   align-self: right;
-float: right;
-width: 44%;
-height: 44%;
-margin-left: 8%;
-margin-right: 7%;
-margin-top: 3%;
-vertical-align: 50%;
+  float: right;
+  width: 44%;
+  height: 44%;
+  margin-left: 8%;
+  margin-right: 7%;
+  margin-top: 3%;
+  vertical-align: 50%;
 }
 
 .plant__image {
@@ -400,17 +341,6 @@ vertical-align: 50%;
   padding: 0%;
   width: 100%;
   color: black;
-  
-  /* display: flex;
-  justify-content: left;
-  justify-self: left;
-  font-size: 1rem; 
-  font-weight: 500;
-  /* margin-left: 5%; */
-  /* margin-right: 10%; */
-  /* padding: 0%;
-  width: 100%;
-  color: black;  */
 }
 
 .standForList {
@@ -433,13 +363,13 @@ vertical-align: 50%;
 }
 
 .plant__image {
-float: left;
-width: 30%;
-height: 30%;
-margin-left: 10%;
-margin-right: .5%;
-margin-top: 3%;
-vertical-align: 50%;
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin-left: 10%;
+  margin-right: .5%;
+  margin-top: 3%;
+  vertical-align: 50%;
 }
 
 .skillsTop {
@@ -453,8 +383,6 @@ vertical-align: 50%;
   padding: 0%;
   width: 100%;
   color: black;
-
-  
 }
 
 .skillsList {
@@ -476,8 +404,6 @@ vertical-align: 50%;
   margin-left: 5%;
   margin-right: 0%;
   align-content: right;
-  
-  /* width: 100%;  */
   vertical-align: text-top;
   
 }
@@ -506,26 +432,18 @@ vertical-align: 50%;
   
 }
 
-
 .skills__image {
   display: flex;
   align-self: right;
-float: right;
-width: 36%;
-height: 36%;
-margin-left: 8%;
-margin-right: 7%;
-margin-top: 3%;
-vertical-align: 50%;
-box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+  float: right;
+  width: 36%;
+  height: 36%;
+  margin-left: 8%;
+  margin-right: 7%;
+  margin-top: 3%;
+  vertical-align: 50%;
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 }
-
-
-
-
-
-
-
 
 .sayHi {
   display: flex;
@@ -642,6 +560,11 @@ font-size: 1.2rem;
 }
 
 
+
+/* !!!!!!!!!!!!!!!!!!! */
+/* MEDIA QUERIES BELOW */
+/* !!!!!!!!!!!!!!!!!!! */
+
 @media (max-device-width: 480px) {
 
   body {
@@ -665,8 +588,6 @@ font-size: 1.2rem;
     margin-bottom: 4%;
     margin-right: 1%;
     margin-left: 1%;
-    /* font-family: 'Cinzel Decorative', cursive; */
-    /* font-family: 'Rajdhani', sans-serif; */
     font-family: 'Kufam', cursive; 
   }
 
@@ -690,7 +611,6 @@ font-size: 1.2rem;
     font-size: 1.2rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 500;
-  
   }
   
   a:visited {
@@ -722,24 +642,150 @@ font-size: 1.2rem;
     width: 100%;
     align-self: center;
     justify-self: center;
-
     height: auto;
     position: relative;
-   
   }
   
   .mainImageDiv > .mainImageRhoneFlute {
     width:100%;
     height: auto;
-   
     justify-self:center;
     justify-items: center;
     align-self: center;
     align-content: center;
-  
   }
 
+  .downArrowDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 6.5%;
+  }
+  
+  .secondDownArrowDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    margin: 1vh;
+  }
+  
+  .downArrowImage {
+    width: 5.5%;
+    height: 5.5%;
+  }
+  
+  .secondDownArrowImage {
+    width: 3%;
+    height: 3%
+  }
+  
 
+
+  .mobileLists {
+    margin-top: 10%;
+  }
+
+.mobileLists, .placesContainer, .container, .skillsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-self:center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    font-size: 1rem; 
+    font-weight: 500;
+    padding: 0%;
+    max-width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+  
+}
+
+
+
+  .computer__image, .places__image, .plant__image, .skills__image {
+    display: none;
+  }
+  
+
+.techStackTop, .placesTop, .standForTop, .skillsTop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-self: center;
+  font-size: 1.1rem; 
+  font-weight: 500;
+  padding: 0%;
+  margin-right: 0%;
+  margin-left: 0%;
+  color: black;
+  margin-top: 0%;
+  margin-bottom: 4%;
+}
+
+  
+.skills__text > .skillsTop {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 1.1rem; 
+  font-weight: 500;
+  padding-left: 0vh;
+  margin-left: 0%;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
+
+.techStack__text, .places__text, .standFor__text, .skills__text, .techStackList, .placesList, .standForList, .skillsList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  justify-self:center;
+  justify-items: center;
+  align-self: center;
+  align-content: center;
+  font-weight: 400;
+  color: black;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+
+
+
+
+
+
+.sayHiLinks {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center; 
+  margin-top: 8%;
+  width: 100%
+}
+
+.sayHiLinks > a {
+  color: rgba(255, 255, 255, 0.716);
+  font-size: 1.1rem;
+}
+.sayHiLinks > a:hover {
+font-size: 1.2rem;
+}
+
+.toTop, .contactHi {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+  
 
 
 

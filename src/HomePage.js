@@ -47,29 +47,33 @@ export default class HomePage extends Component {
                      <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
                 </div>
 
-                <TechStack></TechStack>      
+                <div className="mobileLists">
+                    <TechStack></TechStack>      
 
-                <div className="secondDownArrowDiv">
-                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                    <div className="secondDownArrowDiv">
+                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                    </div>
+                    
+                    <PlacesHome></PlacesHome>
+
+                    <div className="secondDownArrowDiv">
+                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                    </div>
+
+                    <StandFor></StandFor>
+
+                    <div className="secondDownArrowDiv">
+                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                    </div>
+
+                    <MiscSkills></MiscSkills>
+
                 </div>
+
+                    <div className="secondDownArrowDiv">
+                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
+                    </div>
                 
-                <PlacesHome></PlacesHome>
-
-                <div className="secondDownArrowDiv">
-                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                </div>
-
-                <StandFor></StandFor>
-
-                <div className="secondDownArrowDiv">
-                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                </div>
-
-                <MiscSkills></MiscSkills>
-
-                <div className="secondDownArrowDiv">
-                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                </div>
 
                 <SayHello></SayHello>
 
