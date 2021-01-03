@@ -18,7 +18,7 @@ export default class Projects extends Component {
                 <div className="projectItem">
                 Oct 2020 – Present <br/>
 
-                Vanilla JavaScript | Local Storage | CSS | HTML5 | GarageBand | Photosh <br/> <br/>
+                Vanilla JavaScript | Local Storage | CSS | HTML5 | GarageBand | Photoshop <br/> <br/>
 
                 In five days, my team planned and executed the construction of a user-friendly tarot reading app with aesthetically pleasing visuals and sounds, allowing the user to track past readings kept in local storage. With organization in mind and the ability to open our code to future expansion, we focused on clean code and structure in the backend.
 I was involved in all aspects of this project. My favorite contributions were creating the data model including text from a written book older than the technology itself, and recording sounds with GarageBand and sound theory to implement within the event-listener functions of the app. I challenged myself in JavaScript and learned many tools that I hope to implement in future work including the use of local storage, event listeners, and looping functions.
