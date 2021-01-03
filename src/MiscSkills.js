@@ -4,6 +4,7 @@ import medicine from './images/medicine.png';
 export default class MiscSkills extends Component {
     render() {
         return (
+            <div>
             <>
             <div className='skillsContainer'>            
                      
@@ -30,6 +31,7 @@ export default class MiscSkills extends Component {
                         
             </div>
             </>
+            </div>
         )
     }
 }
