@@ -104,13 +104,13 @@ a:active {
   align-self: center;
   justify-self: center;
   /* max-height: 100vh; */
-  height: 60vh;
+  height: 70%;
   position: relative;
   
   /* max-width: 110vh;
   max-height: inherit; */
 
-  max-height: 60vh;
+  max-height: 70%;
   max-width: 100%;
   min-width: 100%;
   
@@ -127,23 +127,27 @@ a:active {
   
   /* width: 100vh;
   height: auto; */
-
-  height: 60vh;
-  width: auto;
+  
+  width: 80%;
+  height: inherit;
+ 
   justify-self:center;
   justify-items: center;
   align-self: center;
   align-content: center;
+
+  max-height: 100vh;
+
   /* height: 100%; */
   /* max-height: 25%; */
 
   /* max-width: 80vh;
   max-height: 100vh; */
  
-  max-height:60vh;
+  /* max-height:60vh;
   min-height: inherit;
   max-width: 100vh;
-  min-width: 100vh;
+  min-width: 100vh; */
   
   /* vertical-align: auto; */
   /* position: inherit; */
@@ -247,7 +251,7 @@ margin-bottom: 1%;;
 
 }
 
-.computer__image, .places__image {
+.computer__image, .places__image, .plant__image, .skills__image {
   width: 50%;
   height: 25%;
   box-shadow: 1.5vh 1.5vh 3vh rgba(0, 0, 0, 0.408);
@@ -393,17 +397,27 @@ vertical-align: 50%;
   justify-content: left;
   font-size: 1rem; 
   font-weight: 500;
-  margin-left: 5%;
-  margin-right: 10%;
   padding: 0%;
   width: 100%;
   color: black;
+  
+  /* display: flex;
+  justify-content: left;
+  justify-self: left;
+  font-size: 1rem; 
+  font-weight: 500;
+  /* margin-left: 5%; */
+  /* margin-right: 10%; */
+  /* padding: 0%;
+  width: 100%;
+  color: black;  */
 }
 
 .standForList {
   font-size: 1rem;
   text-align: left;
   text-justify: left;
+  justify-content: left;
   width: 100%;
   color: black;
 }
@@ -412,12 +426,21 @@ vertical-align: 50%;
   font-family: 'Rajdhani', sans-serif;  
   margin-top:0%;
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 2%;
   align-content: right;
   width: 100%; 
   vertical-align: text-top;
 }
 
+.plant__image {
+float: left;
+width: 30%;
+height: 30%;
+margin-left: 10%;
+margin-right: .5%;
+margin-top: 3%;
+vertical-align: 50%;
+}
 
 .skillsTop {
   display: flex;
@@ -616,4 +639,63 @@ font-size: 1.2rem;
   to {
     transform: rotate(360deg);
   }
+}
+
+
+@media (max-device-width: 480px) {
+
+  body {
+    max-width: 100%;
+    min-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .titleName {
+    max-width: 100%;
+  }
+  
+  .titleName, h1 {
+    font-size: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 1%;
+    margin-left: 1%;
+    /* font-family: 'Cinzel Decorative', cursive; */
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Kufam', cursive; 
+  }
+
+  .mainImageDiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+    padding-top:1%;
+    margin-top: 0%;
+    background-color: black;
+    box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+
+    height: auto;
+    position: relative;
+   
+  }
+  
+  .mainImageDiv > .mainImageRhoneFlute {
+    width:100%;
+    height: auto;
+   
+    justify-self:center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+  
+  }
+
 }
