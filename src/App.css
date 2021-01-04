@@ -210,7 +210,7 @@ margin-bottom: 1%;;
 .techStackTop {
   display: flex;
   justify-content: left;
-  font-size: 1rem; 
+  font-size: 1.1rem; 
   font-weight: 500;
   padding: 0%;
   width: 100%;
@@ -259,7 +259,7 @@ vertical-align: 50%;
   display: flex;
   text-align: right;
   justify-self: right;
-  font-size: 1rem; 
+  font-size: 1.1rem; 
   font-weight: 500;
   margin: 0%;
   padding: 0%;
@@ -336,7 +336,7 @@ vertical-align: 50%;
 .standForTop {
   display: flex;
   justify-content: left;
-  font-size: 1rem; 
+  font-size: 1.1rem; 
   font-weight: 500;
   padding: 0%;
   width: 100%;
@@ -375,7 +375,7 @@ vertical-align: 50%;
 .skillsTop {
   display: flex;
   justify-self: right;
-  font-size: 1rem; 
+  font-size: 1.1rem; 
   font-weight: 500;
   margin-left: 15%;
   margin-right: 5%;
