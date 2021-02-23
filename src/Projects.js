@@ -7,12 +7,12 @@ export default class Projects extends Component {
         return (
             <>
             <form className="projectForm">
-
+            <FadeInAnimation wrapperElement="div" className="projectItem1">
                 <div className="projectTitle">
                     Selected Development Projects:
                 </div>
 
-                <FadeInAnimation wrapperElement="div" className="projectItem1">
+
                 <div className="projectItemTitle">
                 Major Arcana Divinator App
                 </div>

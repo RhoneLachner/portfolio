@@ -8,7 +8,7 @@ import StandFor from './StandFor.js';
 import MiscSkills from './MiscSkills';
 import SayHello from './SayHello.js';
 
-import rhoneFluteDark from './images/rhone-dark-flute.png';
+import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
 import downArrow from './images/down-arrow-pretty.png';
 
 

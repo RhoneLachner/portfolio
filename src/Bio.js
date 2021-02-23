@@ -8,7 +8,7 @@ export default class Bio extends Component {
                 <span className="rhoneIs">Hello! My name is Rhone, and I am a Full Stack Software Engineer <br/> based in Portland, OR.</span>
 
                 <div className='bioDiv'>
-                    <FadeInAnimation wrapperElement="p"  className='bioText'>
+                    <FadeInAnimation wrapperElement="p"   className='bioText'>
                         With a creative eye, positive outlook, adaptive resilience, and broad skillset, I bring a
                         methodical and wholistic approach to all that I do. <br/><br/>
                         I am an innovative problem solver, empathetic team builder, and communicative collaborator thriving in both team and solo environments, <br/>
