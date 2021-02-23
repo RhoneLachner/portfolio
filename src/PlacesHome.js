@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import places from './images/house-forest.png';
+import FadeInAnimation from './FadeService/fadeService';
+
 
 export default class PlacesHome extends Component {
     render() {
         return (
             <>
+             <FadeInAnimation wrapperElement="div" direction="left" className="placesHome">
             <div className='placesContainer'>            
                      
                     <div className='places__text'>             
@@ -28,6 +31,7 @@ export default class PlacesHome extends Component {
                     <img className='places__image'src= {places} alt="house in forest"></img>           
                         
             </div>
+            </FadeInAnimation>
             </>
         )
     }

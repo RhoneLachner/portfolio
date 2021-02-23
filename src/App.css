@@ -156,6 +156,8 @@ a:active {
   font-weight: 400;
 }
 
+
+
 .projectTitle, .projectItemTitle, .projectItem {
   display: flex;
   justify-content: center;  
