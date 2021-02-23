@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import computerForest from './images/computer-forest-bw.png';
+import FadeInAnimation from './FadeService/fadeService';
 
 export default class TechStack extends Component {
     render() {
         return (
             <>
+             <FadeInAnimation wrapperElement="div" direction="right" className="techStack1">
             <div className='container'>            
                      <img className='computer__image'src= {computerForest} alt="computer in forest"></img>           
                         
@@ -26,6 +28,7 @@ export default class TechStack extends Component {
                         </p>                                   
                     </div>
             </div>
+            </FadeInAnimation>
             </>
         )
     }

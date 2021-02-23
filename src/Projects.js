@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ExternalLink } from 'react-external-link';
+import FadeInAnimation from './FadeService/fadeService';
 
 export default class Projects extends Component {
     render() {
@@ -11,6 +12,7 @@ export default class Projects extends Component {
                     Selected Development Projects:
                 </div>
 
+                <FadeInAnimation wrapperElement="div" className="projectItem1">
                 <div className="projectItemTitle">
                 Major Arcana Divinator App
                 </div>
@@ -29,8 +31,8 @@ I was involved in all aspects of this project. My favorite contributions were cr
                         <div className="projectLink"> ✧ Go to App ✧ </div>
                         </ExternalLink>
                         
-                        
-
+                </FadeInAnimation>
+                <FadeInAnimation wrapperElement="div" className="projectItem2">
                 <div className="projectItemTitle">
                 Karaoke Roulette App
                 </div>
@@ -42,10 +44,10 @@ I was involved in all aspects of this project. My favorite contributions were cr
 
                 In five days, my team planned and implemented a karaoke roulette application using the YouTube API, allowing users to select randomized karaoke songs to sing with friends. The user flow and design of this application allows participants to log in and save their favorite songs, and the user experience can be shared via video chat screen sharing for a safely social distanced karaoke party.
                 </div>
-                      
                         <ExternalLink href="https://karaoke-roulette.netlify.app/">
                         <div className="projectLink"> ✧ Go to App ✧ </div>
                         </ExternalLink>
+                </FadeInAnimation>
                         
             </form>            
 
