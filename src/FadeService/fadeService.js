@@ -34,7 +34,7 @@ const FadeInAnimation = ({
   useEffect(() => {
     gsap.from(compRef.current,  {
       ...fadeDirection,
-      duration: 3,
+      duration: 5,
       scrollTrigger: compRef.current,
       opacity: 0,
       delay
