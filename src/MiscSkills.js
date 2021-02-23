@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import medicine from './images/medicine.png';
+import FadeInAnimation from './FadeService/fadeService';
 
 export default class MiscSkills extends Component {
     render() {
         return (
             <div>
             <>
+            <FadeInAnimation wrapperElement="div" direction="left" className="placesHome">
             <div className='skillsContainer'>            
                      
                     <div className='skills__text'>             
@@ -30,6 +32,7 @@ export default class MiscSkills extends Component {
                     <img className='skills__image'src= {medicine} alt="herbal medicine"></img>           
                         
             </div>
+            </FadeInAnimation>
             </>
             </div>
         )

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import plant from './images/plant-concrete.png';
+import FadeInAnimation from './FadeService/fadeService';
+
 
 export default class StandFor extends Component {
     render() {
         return (
             <div>
              <>
+             <FadeInAnimation wrapperElement="div" direction="right" className="standFor">
                 <div className='container'>            
                         <img className='plant__image'src= {plant} alt="plant growing"></img>           
                             
@@ -37,6 +40,7 @@ export default class StandFor extends Component {
                             </p>                                   
                         </div>
                 </div>
+                </FadeInAnimation>
             </>
             </div>
         )
