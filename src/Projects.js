@@ -7,12 +7,35 @@ export default class Projects extends Component {
         return (
             <>
             <form className="projectForm">
-            <FadeInAnimation wrapperElement="div" className="projectItem1">
+
+            <FadeInAnimation wrapperElement="div" className="projectItem3">
                 <div className="projectTitle">
                     Selected Development Projects:
                 </div>
 
 
+                <div className="projectItemTitle">
+                beHuman VS Code Extension 
+                </div>
+
+                <div className="projectItem">
+                Oct 2021 – Present <br/>
+
+                Node.js | JavaScript | Express | HTML | CSS | SQL | Heroku | Photoshop ﻿ <br/> <br/>
+
+                beHuman is a VS Code extension that alerts users to take a break from their screens at a time increment of choice. The alerts offer quick wellness tips, and an optional external link to instructional stretching videos focusing on common tension areas associated with desk work. My main contributions included time functions, CRUD routes, user-flow planning, and user-commands + shortcuts.
+                </div>
+                      
+                        <ExternalLink href="https://marketplace.visualstudio.com/items?itemName=not-bot.be-human">
+                        <div className="projectLink"> ✧ Go to VS Code Market ✧ </div>
+                        </ExternalLink>
+                        
+                </FadeInAnimation>
+
+
+
+            <FadeInAnimation wrapperElement="div" className="projectItem1">
+                
                 <div className="projectItemTitle">
                 Major Arcana Divinator App
                 </div>
