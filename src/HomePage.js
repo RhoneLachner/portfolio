@@ -8,6 +8,7 @@ import StandFor from './StandFor.js';
 import MiscSkills from './MiscSkills';
 import SayHello from './SayHello.js';
 
+import circleText from './images/circle-text.png';
 import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
 import downArrow from './images/down-arrow-pretty.png';
 
@@ -18,9 +19,13 @@ export default class HomePage extends Component {
 
         <>      
                  <a name="top"></a>
-
+<div className="circleDiv">
+<img src={circleText} className="circleImage" alt="circletext"/>
+</div>
                 <div className="titleName">
+                   
                     <h1>RHONE LACHNER</h1>
+                    
                 </div>
         <form>
                 <div className='bannerLinks'>
@@ -28,7 +33,7 @@ export default class HomePage extends Component {
                 </div>
 
                 <div className='mainImageDiv'>               
-                    <img className='mainImageRhoneFlute'src= {rhoneFluteDark} alt="rhone-flute"></img>                
+                    <img className='mainImageRhoneFlute'src= {rhoneFluteDark} ></img>                
                 </div>
 
                 <div className="downArrowDiv">
