@@ -180,8 +180,6 @@ a:active {
   font-weight: 400;
 }
 
-
-
 .projectTitle, .projectItemTitle, .projectItem {
   display: flex;
   justify-content: center;  
@@ -369,7 +367,7 @@ vertical-align: 50%;
   color: black;
 }
 
-.standForList {
+.standForList, .standForLinkList {
   font-size: 1rem;
   text-align: left;
   text-justify: left;
@@ -396,6 +394,31 @@ vertical-align: 50%;
   margin-right: .5%;
   margin-top: 3%;
   vertical-align: 50%;
+}
+
+.standForLinkList, .causeLink {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  font-family: 'Rajdhani', sans-serif;  
+  margin-top:0%;
+  margin-left: 5%;
+  margin-right: 2%;
+  text-align: left;
+  width: 100%; 
+  vertical-align: text-top;
+}
+
+.causeLink {
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.causeLink:hover {
+  text-shadow: 0 0 .4vh rgb(255, 255, 255);
+  font-size: 1.1rem;
+  transition: 0.4s;
 }
 
 .skillsTop {

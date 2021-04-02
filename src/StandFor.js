@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ExternalLink } from 'react-external-link';
 import plant from './images/plant-concrete.png';
 import FadeInAnimation from './FadeService/fadeService';
 
@@ -19,25 +20,33 @@ export default class StandFor extends Component {
                                 Things I stand for:
                             </p>
                             <p className='standForList'>  
-                                            
-                            Equality for all genders<br/>
-                            
-                            Anti-Racism <br/>
-                            Anti-Fascism <br/>   
-                            Anti-Classism <br/> 
-                            Anti-Ageism <br/>
-                            Anti-Ableism <br/>
-                            Body-positivity <br/>
-                            Trans Rights <br/>
-                            Downfall of Patriarchy <br/>                                                   
+                                           
+                            Equality and equity for all marginalized people<br/>
+                            Environmental protection and restoration <br/>
+                            Destroying that Glass Ceiling <br/>                                                   
                             Community & collaboration <br/>      
                             Mutual-Aid <br/>
                             Genuine connection and honesty in all things <br/>
                             Mental Health advocacy <br/>
                             Holding people up! instead of pulling them down <br/>
-                            Building a non-hierarchal world together <br/>
+                            Building a non-hierarchal world together <br/> <br/>
 
-                            </p>                                   
+                            CAUSES TO DONATE TO LINKED BELOW: <br/>
+                            </p>     
+                            <div className='standForLinkList'>
+                            <ExternalLink href="https://translifeline.org/">
+                                <p className="causeLink">TransLifeline</p>
+                            </ExternalLink> <br/>
+                            <ExternalLink href="https://bluemountainsbiodiversityproject.org/">
+                                <p className="causeLink">Blue Mountains Biodiversity Project</p>
+                            </ExternalLink> <br/>
+                            <ExternalLink href="https://portlandrescuemission.org/">
+                                <p className="causeLink">Portland Rescue Mission</p>
+                            </ExternalLink> <br/>
+                            <ExternalLink href="https://www.dontshootpdx.org/">
+                                <p className="causeLink">Don't Shoot PDX</p>
+                            </ExternalLink> <br/>
+                            </div>                              
                         </div>
                 </div>
                 </FadeInAnimation>
