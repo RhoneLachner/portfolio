@@ -591,9 +591,11 @@ font-size: 1.2rem;
 .contactText {
   text-align: center;
   font-size: 1.5rem;
-  
 }
-
+.linkedInContactPage {
+font-size: 1.3rem;
+color: rgb(126, 126, 241);
+}
 
 .App-link {
   color: #61dafb;
@@ -607,8 +609,6 @@ font-size: 1.2rem;
     transform: rotate(360deg);
   }
 }
-
-
 
 /* !!!!!!!!!!!!!!!!!!! */
 /* MEDIA QUERIES BELOW */
@@ -816,12 +816,6 @@ font-size: 1.2rem;
   margin-top: 0%;
   margin-bottom: 0%;
 }
-
-
-
-
-
-
 
 .sayHiLinks {
   display:flex;
