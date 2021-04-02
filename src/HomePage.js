@@ -11,7 +11,7 @@ import SayHello from './SayHello.js';
 import circleText from './images/circle-text3.png';
 import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
 import downArrow from './images/down-arrow-pretty.png';
-
+import rhoneFluteLayers from './images/portfolio-layers-notitle.png';
 
 export default class HomePage extends Component {
     render() {
@@ -33,8 +33,24 @@ export default class HomePage extends Component {
                 </div>
 
                 <div className='mainImageDiv'>               
-                    <img className='mainImageRhoneFlute'src= {rhoneFluteDark} ></img>                
-                </div>
+                    <img className='mainImageRhoneFlute'
+                   onMouseOver src={rhoneFluteLayers}
+                   onMouseLeave src={rhoneFluteDark} 
+                    ></img>      
+
+                    {/* handleMouseOver() {
+                        this.setState({imageSrc: {rhoneFluteLayers}})
+                    }
+                    handleMouseLeave() {
+                        this.setState({imageSrc: {rhoneFluteDark} })
+                    }
+                        return(
+                            <div onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+                                <img src={this.state.imageSrc}/>
+                            </div>
+                        ); */}
+                    
+              </div>
 
                 <div className="downArrowDiv">
                     <img className='downArrowImage'src= {downArrow} alt="scroll downward"></img>
