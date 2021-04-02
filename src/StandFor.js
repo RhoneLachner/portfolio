@@ -27,7 +27,7 @@ export default class StandFor extends Component {
                             Community & collaboration <br/>      
                             Mutual-Aid <br/>
                             Genuine connection and honesty in all things <br/>
-                            Accessibility in design <br/>
+                            Accessibility in Web Design <br/>
                             Holding people up! instead of pulling them down <br/>
                             Building a non-hierarchal world together <br/> <br/>
 
