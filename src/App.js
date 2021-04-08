@@ -4,16 +4,12 @@ import ContactPage from './ContactPage.js';
 import LoadingPage from './LoadingPage.js';
 import MusicPage from './MusicPage.js';
 import HomePage from './HomePage.js';
-
 import {
   BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom';
-
 import './App.css';
-
-
 
 export default class App extends React.Component {
   render() {
@@ -45,8 +41,6 @@ export default class App extends React.Component {
                   </Switch>
               </Router>
           </div>
-
       )
   }
 }
-

@@ -8,16 +8,12 @@ export default class TechStack extends Component {
             <>
              <FadeInAnimation wrapperElement="div" direction="right" className="techStack1">
             <div className='container'>            
-                     <img className='computer__image'src= {computerForest} alt="computer in forest"></img>           
-                        
-                       
-
+                <img className='computer__image'src= {computerForest} alt="computer in forest"></img>           
                     <div className='techStack__text'>             
                         <p className='techStackTop'> 
                             Current Tech Stack 2021: 
                         </p>
-                        <p className='techStackList'>  
-                                           
+                        <p className='techStackList'>                        
                             LANGUAGES ▸ Javascript, HTML, CSS <br/>
                             FRONT END ▸ React, Redux <br/>
                             BACK END ▸ NodeJs, Express <br/>

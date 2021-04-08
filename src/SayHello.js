@@ -8,7 +8,6 @@ export default class SayHello extends Component {
     render() {
         return (
             <form className="sayHi">
-           
 
                 <FadeInAnimation wrapperElement="div" direction="down" className="thankYou">
                 <div className="thankYouText">
@@ -29,6 +28,7 @@ export default class SayHello extends Component {
                 <Link className='contactHi' to='/contact'>Contact</Link> 
                 </div>
                 </FadeInAnimation>
+                
             </form>
         )
     }

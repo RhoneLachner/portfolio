@@ -18,12 +18,9 @@ body {
   height:100%;
 }
 
-
 .titleName {
   max-width: 100%;
 }
-
-
 
 .titleName, h1 {
   font-size: 5rem;
@@ -81,7 +78,6 @@ a:link {
   font-size: 1.3rem;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 500;
-
 }
 
 a:visited {
@@ -222,7 +218,6 @@ margin-bottom: 1%;;
 .projectLink:hover {
   font-size: 1.35rem;
   transition: 0.3s;
-
 }
 
 .computer__image, .places__image, .plant__image, .skills__image {
@@ -478,7 +473,6 @@ vertical-align: 50%;
   align-self: right;
   margin-bottom: 5%;
   margin-top: 5%;
-  
 }
 
 .skills__image {
@@ -550,7 +544,6 @@ font-size: 1.2rem;
   margin-left: 10%;
 }
 
-
 .musicPage {
   display: flex;
   flex-direction: column;
@@ -615,7 +608,6 @@ color: rgb(126, 126, 241);
 /* !!!!!!!!!!!!!!!!!!! */
 
 @media (max-device-width: 480px) {
-
   body {
     max-width: 100%;
     min-width: 100%;
@@ -740,7 +732,6 @@ color: rgb(126, 126, 241);
   .projectLink:hover {
     font-size: 1.4rem;
     transition: 0.3s;
-  
   }
 
   .mobileLists {
@@ -761,7 +752,6 @@ color: rgb(126, 126, 241);
     max-width: 100%;
     margin-right: 0%;
     margin-left: 0%;
-  
 }
 
   .computer__image, .places__image, .plant__image, .skills__image {
@@ -783,7 +773,6 @@ color: rgb(126, 126, 241);
   margin-bottom: 4%;
 }
 
-  
 .skills__text > .skillsTop {
   display: flex;
   flex-direction: column;
@@ -838,11 +827,4 @@ font-size: 1.2rem;
   margin-right: 10%;
   margin-left: 10%;
 }
-
-  
-
-
-
-
-
 }

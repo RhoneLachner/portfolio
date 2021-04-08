@@ -12,15 +12,12 @@ export default class StandFor extends Component {
              <FadeInAnimation wrapperElement="div" direction="right" className="standFor">
                 <div className='container'>            
                         <img className='plant__image'src= {plant} alt="plant growing"></img>           
-                            
-                        
-
+                    
                         <div className='standFor__text'>             
                             <p className='standForTop'> 
                                 Things I stand for:
                             </p>
-                            <p className='standForList'>  
-                                           
+                            <p className='standForList'>                  
                             Equality and equity for all marginalized people<br/>
                             Environmental protection and restoration <br/>
                             Destroying that Glass Ceiling <br/>                                                   
@@ -30,7 +27,6 @@ export default class StandFor extends Component {
                             Accessibility in Web Design <br/>
                             Holding people up! instead of pulling them down <br/>
                             Building a non-hierarchal world together <br/> <br/>
-
                             CAUSES TO DONATE TO LINKED BELOW: <br/>
                             </p>     
                             <div className='standForLinkList'>
