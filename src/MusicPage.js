@@ -10,7 +10,6 @@ export default class MusicPage extends Component {
                 MUSIC PAGE CURRENTLY UNDER CONSTRUCTION. <br/>
                 Thank you for visiting!
             </div>
-
             <div className="backToHomeDiv">
                 <Link className='backToHome' to='/'>Go back to Home Page</Link> 
             </div>

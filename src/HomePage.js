@@ -16,18 +16,15 @@ import rhoneFluteLayers from './images/portfolio-layers-notitle.png';
 export default class HomePage extends Component {
     render() {
         return (
-
         <>      
-                 <a name="top"></a>
-<div className="circleDiv">
-<img src={circleText} className="circleImage" alt="circletext"/>
-</div>
-                <div className="titleName">
-                   
-                    <h1>RHONE LACHNER</h1>
-                    
+                <a name="top"></a>
+                <div className="circleDiv">
+                     <img src={circleText} className="circleImage" alt="circletext"/>
                 </div>
-        <form>
+                <div className="titleName">         
+                    <h1>RHONE LACHNER</h1>         
+                </div>
+            <form>
                 <div className='bannerLinks'>
                     <BannerLinks></BannerLinks>
                 </div>
@@ -36,21 +33,8 @@ export default class HomePage extends Component {
                     <img className='mainImageRhoneFlute'
                    onMouseOver src={rhoneFluteLayers}
                    onMouseLeave src={rhoneFluteDark} 
-                    ></img>      
-
-                    {/* handleMouseOver() {
-                        this.setState({imageSrc: {rhoneFluteLayers}})
-                    }
-                    handleMouseLeave() {
-                        this.setState({imageSrc: {rhoneFluteDark} })
-                    }
-                        return(
-                            <div onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
-                                <img src={this.state.imageSrc}/>
-                            </div>
-                        ); */}
-                    
-              </div>
+                    ></img>                 
+                </div>
 
                 <div className="downArrowDiv">
                     <img className='downArrowImage'src= {downArrow} alt="scroll downward"></img>
@@ -95,12 +79,10 @@ export default class HomePage extends Component {
                         <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
                     </div>
                 
+                    <SayHello></SayHello>
 
-                <SayHello></SayHello>
-
-        </form>
+             </form>
         </>
-
         )
     }
 }

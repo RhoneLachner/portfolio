@@ -8,14 +8,12 @@ export default class PlacesHome extends Component {
         return (
             <>
              <FadeInAnimation wrapperElement="div" direction="left" className="placesHome">
-            <div className='placesContainer'>            
-                     
+            <div className='placesContainer'>                     
                     <div className='places__text'>             
                         <p className='placesTop'> 
                             Places I call Home: 
                         </p>
-                        <p className='placesList'>  
-                                           
+                        <p className='placesList'>                
                             Portland, OR <br/>
                             Southern Oregon <br/>
                             Northern California <br/>
@@ -24,12 +22,9 @@ export default class PlacesHome extends Component {
                             PNW Forests <br/>
                             High altitude deserts <br/>
                             Many more TBD 
-                           
                         </p>                                   
                     </div>
-
-                    <img className='places__image'src= {places} alt="house in forest"></img>           
-                        
+                    <img className='places__image'src= {places} alt="house in forest"></img>     
             </div>
             </FadeInAnimation>
             </>

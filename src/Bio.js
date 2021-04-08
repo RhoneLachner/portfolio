@@ -6,7 +6,6 @@ export default class Bio extends Component {
         return (
             <>  
                 <span className="rhoneIs">Hello! My name is Rhone, and I am a Full Stack Software Engineer <br/> based in Portland, OR.</span>
-
                 <div className='bioDiv'>
                     <FadeInAnimation wrapperElement="p"   className='bioText'>
                         With a creative eye, positive outlook, adaptive resilience, and broad skillset, I bring a
