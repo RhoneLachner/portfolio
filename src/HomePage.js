@@ -12,6 +12,7 @@ import circleText from './images/circle-text3.png';
 import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
 import downArrow from './images/down-arrow-pretty.png';
 import rhoneFluteLayers from './images/portfolio-layers-notitle.png';
+import playPause from './images/play-pause-img.png';
 
 export default class HomePage extends Component {
     render() {
@@ -20,7 +21,9 @@ export default class HomePage extends Component {
                 <a name="top"></a>
                 <div className="circleDiv">
                      <img src={circleText} className="circleImage" alt="circletext"/>
+                     <img src={playPause} className="playPause" alt="circletext"/>
                 </div>
+                
                 <div className="titleName">         
                     <h1>RHONE LACHNER</h1>         
                 </div>
