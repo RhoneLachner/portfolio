@@ -7,6 +7,7 @@ import PlacesHome from './PlacesHome.js';
 import StandFor from './StandFor.js';
 import MiscSkills from './MiscSkills';
 import SayHello from './SayHello.js';
+import AudioTest from './Audio.js';
 
 import circleText from './images/circle-text3.png';
 import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
@@ -18,9 +19,15 @@ export default class HomePage extends Component {
         return (
         <>      
                 <a name="top"></a>
+
+            
+                
                 <div className="circleDiv">
-                     <img src={circleText} className="circleImage" alt="circletext"/>
+                    
+                    <img src={circleText} className="circleImage" alt="circletext"/>
+                    <AudioTest />  
                 </div>
+                
                 <div className="titleName">         
                     <h1>RHONE LACHNER</h1>         
                 </div>
