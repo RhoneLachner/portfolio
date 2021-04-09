@@ -58,16 +58,28 @@ width: 8%;
   }
 }
 
-.circleDiv > .playPause {
-width: 2%;
-height: 2%;
+.playPause {
+width: 1.8%;
+height: 1.8%;
 display: inline-block;
 position: relative absolute;
 vertical-align: inherit;
 float: right;
 margin-top: 3%;
-margin-right: -11%;
+margin-right: -11.1%;
 padding: 3%;
+}
+
+.playPauseRadio {
+width: 2rem;
+height: 2rem;
+float: right;
+margin-top: 5.2%;
+margin-right: -8.6%;
+z-index:+1;
+position:relative;
+opacity: 0;
+cursor: pointer;
 }
 
 .bannerLinks {
