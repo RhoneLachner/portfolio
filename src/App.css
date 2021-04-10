@@ -639,8 +639,8 @@ color: rgb(126, 126, 241);
     margin-right: 2%;
   }
 
-  .circleDiv {
-    display: hidden;
+  .circleDiv, .circleImage, .playPauseRadio, .playPause {
+    display: none;
   }
   
   .titleName {
