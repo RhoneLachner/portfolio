@@ -835,6 +835,10 @@ color: rgb(126, 126, 241);
   margin-bottom: 0%;
 }
 
+.causeLink {
+  font-weight: 600;
+}
+
 .sayHiLinks {
   display:flex;
   flex-direction: row;
