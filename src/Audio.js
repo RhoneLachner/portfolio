@@ -13,7 +13,7 @@ class AudioTest extends React.Component{
     return (
         <div>
             <label for="sad"><img src={playPause} className="playPause" alt="play-audio" />
-              <input type="checkbox"  name="emotion" className="playPauseRadio" id="audio" onChange={this.playAudio}/>
+              <input type="checkbox"  name="audio" className="playPauseRadio" id="audio" onChange={this.playAudio} />
             </label>
         </div>
     );

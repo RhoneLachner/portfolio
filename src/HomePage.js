@@ -23,7 +23,6 @@ export default class HomePage extends Component {
             
                 
                 <div className="circleDiv">
-                    
                     <img src={circleText} className="circleImage" alt="circletext"/>
                     <AudioTest />  
                 </div>

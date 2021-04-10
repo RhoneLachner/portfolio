@@ -638,6 +638,11 @@ color: rgb(126, 126, 241);
     margin-left: 2%;
     margin-right: 2%;
   }
+
+  .circleDiv {
+    display: hidden;
+  }
+  
   .titleName {
     max-width: 100%;
   }
@@ -813,7 +818,7 @@ color: rgb(126, 126, 241);
   color: black;
 }
 
-.techStack__text, .places__text, .standFor__text, .skills__text, .techStackList, .placesList, .standForList, .skillsList {
+.techStack__text, .places__text, .standFor__text, .skills__text, .techStackList, .placesList, .standForList, .skillsList, .causeLink {
   display: flex;
   flex-direction: column;
   justify-content: center;
