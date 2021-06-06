@@ -12,7 +12,7 @@ export default class Bio extends Component {
                         methodical and holistic approach to all that I do. <br/><br/>
                         I am an innovative problem solver, empathetic team builder, and communicative collaborator thriving in both team and solo environments, <br/>
                         and I believe that every business is made better with an inclusive and diverse array of perspectives and backgrounds. <br/><br/>
-                        in 2021 I aim to create memorable, useful, and aesthetically pleasing applications that enrich people's lives,
+                        In 2021 I aim to create memorable, useful, and aesthetically pleasing applications that enrich people's lives,
                         bridging the gap between the physical and digital worlds. 
                     </FadeInAnimation>
                 </div>
