@@ -13,7 +13,6 @@ export default class BannerLinks extends Component {
                         <ExternalLink href="https://www.linkedin.com/in/rhonelachner/">
                         <span className="linkedIn">LinkedIn</span>
                         </ExternalLink> 
-                        <Link className='contact' to='/contact'>Contact</Link>   
                         <Link className='music' to='/music'>Music</Link>                                   
                     </div>             
             </>

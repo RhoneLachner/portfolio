@@ -8,12 +8,11 @@ import StandFor from './StandFor.js';
 import MiscSkills from './MiscSkills';
 import SayHello from './SayHello.js';
 import AudioPlayer from './Audio';
-// import AudioTest from './Audio.js';
-
 import circleText from './images/circle-text3.png';
 import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
 import downArrow from './images/down-arrow-pretty.png';
 import rhoneFluteLayers from './images/portfolio-layers-notitle.png';
+import ToggledImagesWithMailModal from './ToggledImageComponent/ToggledImageWithMailModal';
 
 export default class HomePage extends Component {
     render() {
@@ -21,8 +20,6 @@ export default class HomePage extends Component {
         <>      
                 <a name="top"></a>
 
-            
-                
                 <div className="circleDiv">
                     <img src={circleText} className="circleImage" alt="circletext"/>
                     <AudioPlayer />  
@@ -36,11 +33,13 @@ export default class HomePage extends Component {
                     <BannerLinks></BannerLinks>
                 </div>
 
-                <div className='mainImageDiv'>               
-                    <img className='mainImageRhoneFlute'
-                   onMouseOver src={rhoneFluteLayers}
-                   onMouseLeave src={rhoneFluteDark} 
-                    ></img>                 
+                <div className='mainImageDiv'>  
+                    <div className='mainImageRhoneFlute'>
+                        <ToggledImagesWithMailModal 
+                            imageA={rhoneFluteDark}
+                            imageB={rhoneFluteLayers}
+                         />
+                    </div>             
                 </div>
 
                 <div className="downArrowDiv">
