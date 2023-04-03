@@ -466,62 +466,6 @@ vertical-align: 50%;
   box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 }
 
-.sayHi {
-  display: flex;
-  flex-direction: column;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  height: 80vh;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-self: center; 
-}
-
-.thankYouText {
-  display:flex;
-  justify-content: center;
-  align-self: center; 
-  text-align: center;
-  margin-top: 2%;
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.661);
-  font-family: 'Rajdhani', sans-serif;
-}
-
-.sayHiText {
-  display:flex;
-  justify-content: center;
-  align-self: center;
-  margin-top: 3%;
-  font-size: 8rem;
-  text-align: center;
-  font-family: 'Rajdhani', sans-serif;
-}
-
-.sayHiLinks {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-self: center; 
-  margin-top: 8%;
-  width: 100%
-}
-
-.sayHiLinks > a {
-  color: rgba(255, 255, 255, 0.716);
-  font-size: 1.1rem;
-}
-.sayHiLinks > a:hover {
-font-size: 1.2rem;
-}
-
-.toTop, .contactHi {
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
 .musicPage {
   display: flex;
   flex-direction: column;
@@ -789,25 +733,4 @@ color: rgb(126, 126, 241);
   font-weight: 600;
 }
 
-.sayHiLinks {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-self: center; 
-  margin-top: 8%;
-  width: 100%
-}
-
-.sayHiLinks > a {
-  color: rgba(255, 255, 255, 0.716);
-  font-size: 1.1rem;
-}
-.sayHiLinks > a:hover {
-font-size: 1.2rem;
-}
-
-.toTop, .contactHi {
-  margin-right: 10%;
-  margin-left: 10%;
-}
 }

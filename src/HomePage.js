@@ -6,7 +6,7 @@ import Projects from './Projects.js';
 import PlacesHome from './PlacesHome.js';
 import StandFor from './StandFor.js';
 import MiscSkills from './MiscSkills';
-import SayHello from './SayHello.js';
+import SayHello from './SayHelloComponent/SayHello';
 import AudioPlayer from './AudioPlayerComponent/AudioPlayer';
 import circleText from './images/circle-text3.png';
 import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
