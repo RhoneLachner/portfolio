@@ -32,7 +32,6 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     align-items: center;
     transition: opacity 800ms ease-in-out;
     z-index: 4;
-
   }
 
   .ReactModal__Overlay--after-open {
@@ -54,6 +53,11 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     outline: none;
   }
   
+  .ReactModal__Content--after-open {
+    opacity: 90%;
+    z-index: 5;
+  }
+
   @keyframes zoom-in {
     0% {
       transform: scale(0.7);
@@ -67,7 +71,8 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 5%,
+    margin: 5%;
+    opacity: 90%;
   } 
   
   .modalButton {
