@@ -32,7 +32,10 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     align-items: center;
     transition: opacity 800ms ease-in-out;
   }
-  
+
+  .ReactModal__Overlay--after-open {
+    opacity: 85%;
+  }
   
   .ReactModal__Content {
     position: relative;
@@ -40,7 +43,7 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     height: auto;
     padding: 3%;
     opacity: 90%;
-    z-index: 2;
+    z-index: +2;
     background-color: rgb(46, 46, 46);
     border-radius: .4rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
