@@ -35,9 +35,9 @@ const ToggledImagesWithMailModal = ({ imageA, imageB }) => {
     <div className="toggledImages-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <img src={isHovered ? imageB : imageA} className={isHovered ? "toggledImagesClassNameB" : "toggledImagesClassNameA"} alt="toggledHomepageImage" onClick={handleImageClick} />
 
-      <Modal className="mailModal" isOpen={isModalOpen} onRequestClose={handleCloseModal}>
+      <Modal className="ReactModal" isOpen={isModalOpen} onRequestClose={handleCloseModal}>
         <div className="modalButtons-container">
-            <button className="modalButton" onClick={handleEmailButtonClick}>send an email </button>
+            <button className="modalButton" onClick={handleEmailButtonClick}>send  email </button>
             <button className="modalButton" onClick={handleCloseModal}>not now</button>
         </div>
       </Modal>

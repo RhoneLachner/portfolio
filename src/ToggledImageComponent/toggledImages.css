@@ -26,17 +26,18 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     height: auto;
   }
 
+
   .ReactModal__Overlay {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: opacity 800ms ease-in-out;
     z-index: 4;
+    opacity: 90%;
   }
 
   .ReactModal__Overlay--after-open {
-    opacity: 90%;
-    z-index: 5;
+    opacity:90%;
+    z-index: 4;
   }
   
   .ReactModal__Content {
