@@ -36,51 +36,6 @@ body {
   font-family: 'Kufam', cursive; 
 }
 
-.circleImage {
-display: inline-block;
-float: right;
-vertical-align: initial;
-margin-top: 0;
-padding: 3%;
-margin: 0rem;
-width: 8%;
-  height: 8%;
-  
- animation: rotation infinite 27s linear;
- align-content: flex-end;
-}
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-
-.playPause {
-width: 1.8%;
-height: 1.8%;
-display: inline-block;
-position: relative absolute;
-vertical-align: inherit;
-float: right;
-margin-top: 3%;
-margin-right: -11.1%;
-padding: 3%;
-}
-
-.playPauseRadio {
-width: 2rem;
-height: 2rem;
-float: right;
-margin-top: 5.5%;
-margin-right: -8.5%;
-z-index:+1;
-position:relative;
-cursor: pointer;
-}
-
 .bannerLinks {
   align-items: center;
   display: flex;
@@ -636,10 +591,6 @@ color: rgb(126, 126, 241);
     min-width: 100%;
     margin-left: 2%;
     margin-right: 2%;
-  }
-
-  .circleDiv, .circleImage, .playPauseRadio, .playPause {
-    display: none;
   }
   
   .titleName {
