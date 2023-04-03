@@ -25,8 +25,54 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     width: 100%;
     height: auto;
   }
+  
+/* PROD ENV TEST. */
 
+  .ReactModal__Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+  }
+  
+  .ReactModal__Overlay--after-open {
+    opacity: 1;
+  }
+  
+  .ReactModal__Overlay--before-close {
+    opacity: 0;
+  }
+  
+  .ReactModal__Content {
+    position: relative;
+    width: 40%;
+    height: 0;
+    padding-bottom: 30%; /* 75% of width */
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: zoom-in 200ms ease-out;
+  }
+  
+  @keyframes zoom-in {
+    0% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
+  /* PROD ENV TEST. */
+/*
   .ReactModal__Overlay {
     display: flex;
     justify-content: center;
@@ -100,3 +146,4 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
   .modalButton:active {
     border: 2px solid rgb(255, 255, 255);
   }
+*/

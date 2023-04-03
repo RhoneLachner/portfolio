@@ -31,18 +31,28 @@ const ToggledImagesWithMailModal = ({ imageA, imageB }) => {
     window.location.href = 'mailto:fernandclay@gmail.com';
   };
 
+  // return (
+  //   <div className="toggledImages-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+  //     <img src={isHovered ? imageB : imageA} className={isHovered ? "toggledImagesClassNameB" : "toggledImagesClassNameA"} alt="toggledHomepageImage" onClick={handleImageClick} />
+
+  //     <Modal className="ReactModal" isOpen={isModalOpen} onRequestClose={handleCloseModal}>
+  //       <div className="modalButtons-container">
+  //           <button className="modalButton" onClick={handleEmailButtonClick}>send  email </button>
+  //           <button className="modalButton" onClick={handleCloseModal}>not now</button>
+  //       </div>
+  //     </Modal>
+  //   </div>
+  // )
   return (
     <div className="toggledImages-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <img src={isHovered ? imageB : imageA} className={isHovered ? "toggledImagesClassNameB" : "toggledImagesClassNameA"} alt="toggledHomepageImage" onClick={handleImageClick} />
 
-      <Modal className="ReactModal" isOpen={isModalOpen} onRequestClose={handleCloseModal}>
-        <div className="modalButtons-container">
-            <button className="modalButton" onClick={handleEmailButtonClick}>send  email </button>
-            <button className="modalButton" onClick={handleCloseModal}>not now</button>
-        </div>
+      <Modal isOpen={isModalOpen} onRequestClose={handleCloseModal}>
+        <button onClick={handleCloseModal}>Close</button>
+        <button onClick={handleEmailButtonClick}>Send Email</button>
       </Modal>
     </div>
-  )
+  );
 };
 
 export default ToggledImagesWithMailModal;
