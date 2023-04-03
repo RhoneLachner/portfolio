@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import BannerLinks from './BannerLinks';
 import Bio from './Bio.js';
 import TechStack from './TechStack.js';
@@ -14,81 +14,79 @@ import downArrow from './images/down-arrow-pretty.png';
 import rhoneFluteLayers from './images/portfolio-layers-notitle.png';
 import ToggledImagesWithMailModal from './ToggledImageComponent/ToggledImageWithMailModal';
 
-export default class HomePage extends Component {
-    render() {
-        return (
-        <>      
-                <a name="top"></a>
+const HomePage = () => {
+  return (
+    <>
+      <a name="top"></a>
 
-                <div className="circleDiv">
-                    <img src={circleText} className="circleImage" alt="circletext"/>
-                    <AudioPlayer />  
-                </div>
-                
-                <div className="titleName">         
-                    <h1>RHONE LACHNER</h1>         
-                </div>
-            <form>
-                <div className='bannerLinks'>
-                    <BannerLinks></BannerLinks>
-                </div>
+      <div className="circleDiv">
+        <img src={circleText} className="circleImage" alt="circletext" />
+        <AudioPlayer />
+      </div>
 
-                <div className='mainImageDiv'>  
-                    <div className='mainImageRhoneFlute'>
-                        <ToggledImagesWithMailModal 
-                            imageA={rhoneFluteDark}
-                            imageB={rhoneFluteLayers}
-                         />
-                    </div>             
-                </div>
+      <div className="titleName">
+        <h1>RHONE LACHNER</h1>
+      </div>
+      <form>
+        <div className="bannerLinks">
+          <BannerLinks />
+        </div>
 
-                <div className="downArrowDiv">
-                    <img className='downArrowImage'src= {downArrow} alt="scroll downward"></img>
-                </div>
+        <div className="mainImageDiv">
+          <div className="mainImageRhoneFlute">
+            <ToggledImagesWithMailModal
+              imageA={rhoneFluteDark}
+              imageB={rhoneFluteLayers}
+            />
+          </div>
+        </div>
 
-                <Bio></Bio>  
-  
-                <div className="secondDownArrowDiv">
-                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                </div>
+        <div className="downArrowDiv">
+          <img className="downArrowImage" src={downArrow} alt="scroll downward" />
+        </div>
 
-                <Projects></Projects>
+        <Bio />
 
-                <div className="secondDownArrowDiv">
-                     <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                </div>
+        <div className="secondDownArrowDiv">
+          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+        </div>
 
-                <div className="mobileLists">
-                    <TechStack></TechStack>      
+        <Projects />
 
-                    <div className="secondDownArrowDiv">
-                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                    </div>
-                    
-                    <PlacesHome></PlacesHome>
+        <div className="secondDownArrowDiv">
+          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+        </div>
 
-                    <div className="secondDownArrowDiv">
-                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                    </div>
+        <div className="mobileLists">
+          <TechStack />
 
-                    <StandFor></StandFor>
+          <div className="secondDownArrowDiv">
+            <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+          </div>
 
-                    <div className="secondDownArrowDiv">
-                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                    </div>
+          <PlacesHome />
 
-                    <MiscSkills></MiscSkills>
+          <div className="secondDownArrowDiv">
+            <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+          </div>
 
-                </div>
+          <StandFor />
 
-                    <div className="secondDownArrowDiv">
-                        <img className='secondDownArrowImage'src= {downArrow} alt="scroll downward"></img>
-                    </div>
-                
-                    <SayHello></SayHello>
+          <div className="secondDownArrowDiv">
+            <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+          </div>
 
-             </form>
-        </>
-        )
-    }
-}
+          <MiscSkills />
+        </div>
+
+        <div className="secondDownArrowDiv">
+          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+        </div>
+
+        <SayHello />
+      </form>
+    </>
+  );
+};
+
+export default HomePage;
