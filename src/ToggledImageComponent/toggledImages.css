@@ -31,6 +31,7 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     justify-content: center;
     align-items: center;
     transition: opacity 800ms ease-in-out;
+    z-index: 1;
   }
   
   .ReactModal__Overlay--after-open {
