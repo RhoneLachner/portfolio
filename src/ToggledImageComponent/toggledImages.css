@@ -34,7 +34,7 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
   }
 
   .ReactModal__Overlay--after-open {
-    opacity: 85%;
+    opacity: 90%;
   }
   
   .ReactModal__Content {
