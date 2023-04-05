@@ -27,7 +27,6 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 800ms ease-in-out;
   top: 0;
   left: 0;
   right: 0;
@@ -49,7 +48,6 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
   width: 25rem;
   height: auto;
   padding: 3%;
-  opacity: 95%;
   background-color: rgb(46, 46, 46);
   border-radius: .4rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
