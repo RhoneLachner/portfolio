@@ -21,9 +21,9 @@ const SayHello = () => {
             <FadeInAnimation wrapperElement="div" direction="right" className="linksHello">
             <div className="sayHiLinks">
 
-            <a className="toTop" href="#top">Back to top of page</a>
+            <a className="toTop" id="toTop" href="#top">Back to top of page</a>
 
-            <a className='contactHi' href="mailto:fernandclay@gmail.com">Email</a> 
+            <a className='contactHi' id="contactHi"  href="mailto:fernandclay@gmail.com">Email</a> 
             </div>
             </FadeInAnimation>
             

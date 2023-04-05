@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger); 
+gsap.registerPlugin(ScrollTrigger);
 
 const FadeInAnimation = ({
   children,
@@ -31,6 +31,14 @@ const FadeInAnimation = ({
     default:
       fadeDirection = { x: 0 };
   }
+  
+  useEffect(() => {
+    document.body.style.overflowX = "hidden";
+    return () => {
+      document.body.style.overflowX = "";
+    };
+  }, []);
+
   useEffect(() => {
     gsap.from(compRef.current,  {
       ...fadeDirection,
@@ -41,7 +49,7 @@ const FadeInAnimation = ({
     });
   }, [compRef, fadeDirection, delay]);
   return (
-    <Component ref={compRef} {...props}>
+    <Component ref={compRef} {...props} style={{ overflowX: "hidden", ...props.style }}>
       {children}
     </Component>
   );

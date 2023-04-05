@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import './toggledImages.css';
 
@@ -31,28 +31,25 @@ const ToggledImagesWithMailModal = ({ imageA, imageB }) => {
     window.location.href = 'mailto:fernandclay@gmail.com';
   };
 
-  // return (
-  //   <div className="toggledImages-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-  //     <img src={isHovered ? imageB : imageA} className={isHovered ? "toggledImagesClassNameB" : "toggledImagesClassNameA"} alt="toggledHomepageImage" onClick={handleImageClick} />
+  useEffect(() => {
+    document.body.style.overflowX = "hidden";
+    return () => {
+      document.body.style.overflowX = "";
+    };
+  }, []);
 
-  //     <Modal className="ReactModal" isOpen={isModalOpen} onRequestClose={handleCloseModal}>
-  //       <div className="modalButtons-container">
-  //           <button className="modalButton" onClick={handleEmailButtonClick}>send  email </button>
-  //           <button className="modalButton" onClick={handleCloseModal}>not now</button>
-  //       </div>
-  //     </Modal>
-  //   </div>
-  // )
   return (
     <div className="toggledImages-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <img src={isHovered ? imageB : imageA} className={isHovered ? "toggledImagesClassNameB" : "toggledImagesClassNameA"} alt="toggledHomepageImage" onClick={handleImageClick} />
 
-      <Modal isOpen={isModalOpen} onRequestClose={handleCloseModal}>
-        <button onClick={handleCloseModal}>Close</button>
-        <button onClick={handleEmailButtonClick}>Send Email</button>
+      <Modal className="ReactModal" isOpen={isModalOpen} onRequestClose={handleCloseModal}>
+        <div className="modalButtons-container">
+            <button className="modalButton" onClick={handleEmailButtonClick}>send an email </button>
+            <button className="modalButton" onClick={handleCloseModal}>not now</button>
+        </div>
       </Modal>
     </div>
-  );
+  )
 };
 
 export default ToggledImagesWithMailModal;
