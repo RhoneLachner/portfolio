@@ -8,10 +8,10 @@ import StandFor from './HomePage/sections/StandFor';
 import MiscSkills from './HomePage/sections/MiscSkills';
 import SayHello from './HomePage/components/SayHelloComponent/SayHello';
 import AudioPlayer from './HomePage/components/AudioPlayerComponent/AudioPlayer';
-import circleText from '../images/circle-text3.png';
-import rhoneFluteDark from '../images/rhone-dark-flute2.jpg';
-import downArrow from '../images/down-arrow-pretty.png';
-import rhoneFluteLayers from '../images/portfolio-layers-notitle.png';
+import circleText from '../assets/images/circle-text3.png';
+import rhoneFluteDark from '../assets/images/rhone-dark-flute2.jpg';
+import downArrow from '../assets/images/down-arrow-pretty.png';
+import rhoneFluteLayers from '../assets/images/portfolio-layers-notitle.png';
 import ToggledImagesWithMailModal from './HomePage/components/ToggledImageComponent/ToggledImageWithMailModal';
 
 const HomePage = () => {

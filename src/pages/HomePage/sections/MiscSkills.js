@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import medicine from '../../../images/medicine.png';
-import FadeInAnimation from '../../../services/FadeService/fadeService';
+import medicine from '../../../assets/images/medicine.png';
+import FadeInAnimation from '../../../utils/animation/motionAnimation';
 
 export default class MiscSkills extends Component {
     render() {

@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const FadeInAnimation = ({
+const MotionAnimation = ({
   children,
   wrapperElement = "div",
   direction = null,
@@ -55,4 +55,4 @@ const FadeInAnimation = ({
   );
 };
 
-export default FadeInAnimation;
+export default MotionAnimation;

@@ -1,5 +1,5 @@
 import React from 'react';
-import FadeInAnimation from '../../../../services/FadeService/fadeService';
+import FadeInAnimation from '../../../../utils/animation/motionAnimation';
 
 import './sayHello.css';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ExternalLink } from 'react-external-link';
-import FadeInAnimation from '../../../services/FadeIn';
+import FadeInAnimation from '../../../utils/animation/fadeAnimation';
 
 export default class Projects extends Component {
     render() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FadeInAnimation from '../../../services/FadeService/fadeService';
+import FadeInAnimation from '../../../utils/animation/motionAnimation';
 
 export default class Bio extends Component {
     render() {
