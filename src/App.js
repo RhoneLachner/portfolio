@@ -26,11 +26,6 @@ const App = () => {
             exact
             render={(routerProps) => <MusicPage {...routerProps} />}
           />
-          <Route
-            path="/contact"
-            exact
-            render={(routerProps) => <ContactPage {...routerProps} />}
-          />
         </Switch>
       </Router>
     </div>
