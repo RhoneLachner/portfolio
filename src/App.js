@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactPage from './pages/ContactPage.js';
 import LoadingPage from './pages/LoadingPage.js';
 import MusicPage from './pages/MusicPage.js';
 import HomePage from './pages/HomePage.js';
