@@ -1,28 +1,24 @@
 /* This CSS file is being used for two separate component versions:
 ToggledImagesOnHover, and ToggledImagesWithMailModal. */
 
-/* CSS still needs to be optimized for mobile.
-Modal renders offscreen at mobile and tablet breakpoints due to old styling 
-in App.css and fadeService.js
-Holistic refactor and bug fixes required to make this site mobile friendly. */
-
-/* ease-out modal transition is not working on close. Revisit later.*/
-
 .toggledImages-container {
   display: inline-block;
   transition: all 1s ease;
 }
+
 .toggledImagesClassNameA {
   display: block;
   width: 100%;
   height: auto;
   transition: all 1s ease;
 }
+
 .toggledImagesClassNameB {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .ReactModal__Overlay {
   display: flex;
   justify-content: center;
@@ -53,6 +49,7 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   animation: zoom-in 900ms ease-out;
   outline: none;
+  opacity: 90%;
 }
 
 @keyframes zoom-in {
@@ -63,6 +60,7 @@ Holistic refactor and bug fixes required to make this site mobile friendly. */
     transform: scale(1);
   }
 }
+
 .modalButtons-container {
   align-items: center;
   display: flex;

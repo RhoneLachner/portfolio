@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import BannerLinks from './BannerLinks';
 import Bio from './Bio.js';
 import TechStack from './TechStack.js';
@@ -15,12 +15,6 @@ import rhoneFluteLayers from './images/portfolio-layers-notitle.png';
 import ToggledImagesWithMailModal from './ToggledImageComponent/ToggledImageWithMailModal';
 
 const HomePage = () => {
-    useEffect(() => {
-        document.body.style.overflowX = "hidden";
-        return () => {
-          document.body.style.overflowX = "";
-        };
-      }, []);
   return (
     <>
       <a name="top"></a>

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Modal from 'react-modal';
 import './toggledImages.css';
 
-//This file includes both onHover and onClick behavior.
+//This file includes onHover and onClick behavior for the main homepage image.
 //Images are toggled onHover, and an email modal opens onClick.
 
 Modal.setAppElement('#root');
@@ -30,13 +30,6 @@ const ToggledImagesWithMailModal = ({ imageA, imageB }) => {
   const handleEmailButtonClick = () => {
     window.location.href = 'mailto:fernandclay@gmail.com';
   };
-
-  useEffect(() => {
-    document.body.style.overflowX = "hidden";
-    return () => {
-      document.body.style.overflowX = "";
-    };
-  }, []);
 
   return (
     <div className="toggledImages-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>

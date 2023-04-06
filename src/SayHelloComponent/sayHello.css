@@ -42,7 +42,6 @@
     margin-top: 8%;
     width: 100%;
     color: rgba(255, 255, 255, 0.756);
-
   }
 
   .sayHiLinks > a:hover {
@@ -57,13 +56,6 @@
   .sayHiLinks > a:active {
     color: rgba(255, 255, 255, 0.756);
   }
-  /*
-  .toTop, .contactHi {
-    margin-right: 10%;
-    margin-left: 10%;
-    font-size: 1.9rem;
-    color: rgba(255, 255, 255, 0.756);
-  } */
 
   /* using ID as a CSS override here until further refactor of App.css */
   #toTop {
