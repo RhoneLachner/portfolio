@@ -1,18 +1,18 @@
 import React from 'react';
-import BannerLinks from './BannerLinks';
-import Bio from './Bio.js';
-import TechStack from './TechStack.js';
-import Projects from './Projects.js';
-import PlacesHome from './PlacesHome.js';
-import StandFor from './StandFor.js';
-import MiscSkills from './MiscSkills';
-import SayHello from './SayHelloComponent/SayHello';
-import AudioPlayer from './AudioPlayerComponent/AudioPlayer';
-import circleText from './images/circle-text3.png';
-import rhoneFluteDark from './images/rhone-dark-flute2.jpg';
-import downArrow from './images/down-arrow-pretty.png';
-import rhoneFluteLayers from './images/portfolio-layers-notitle.png';
-import ToggledImagesWithMailModal from './ToggledImageComponent/ToggledImageWithMailModal';
+import BannerLinks from './HomePage/components/BannerLinks';
+import Bio from './HomePage/sections/Bio';
+import TechStack from './HomePage/sections/TechStack';
+import Projects from './HomePage/sections/Projects';
+import PlacesHome from './HomePage/sections/PlacesHome';
+import StandFor from './HomePage/sections/StandFor';
+import MiscSkills from './HomePage/sections/MiscSkills';
+import SayHello from './HomePage/components/SayHelloComponent/SayHello';
+import AudioPlayer from './HomePage/components/AudioPlayerComponent/AudioPlayer';
+import circleText from '../images/circle-text3.png';
+import rhoneFluteDark from '../images/rhone-dark-flute2.jpg';
+import downArrow from '../images/down-arrow-pretty.png';
+import rhoneFluteLayers from '../images/portfolio-layers-notitle.png';
+import ToggledImagesWithMailModal from './HomePage/components/ToggledImageComponent/ToggledImageWithMailModal';
 
 const HomePage = () => {
   return (

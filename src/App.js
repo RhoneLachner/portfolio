@@ -1,8 +1,8 @@
 import React from 'react';
-import ContactPage from './ContactPage.js';
-import LoadingPage from './LoadingPage.js';
-import MusicPage from './MusicPage.js';
-import HomePage from './HomePage.js';
+import ContactPage from './pages/ContactPage.js';
+import LoadingPage from './pages/LoadingPage.js';
+import MusicPage from './pages/MusicPage.js';
+import HomePage from './pages/HomePage.js';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 

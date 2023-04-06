@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import places from './images/house-forest.png';
-import FadeInAnimation from './FadeService/fadeService';
+import places from '../../../images/house-forest.png';
+import FadeInAnimation from '../../../services/FadeService/fadeService';
 
 
 export default class PlacesHome extends Component {

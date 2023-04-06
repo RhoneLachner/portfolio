@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import computerForest from './images/computer-forest-bw.png';
-import FadeInAnimation from './FadeService/fadeService';
+import computerForest from '../../../images/computer-forest-bw.png';
+import FadeInAnimation from '../../../services/FadeService/fadeService';
 
 export default class TechStack extends Component {
     render() {

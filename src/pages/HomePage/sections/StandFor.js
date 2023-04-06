@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ExternalLink } from 'react-external-link';
-import plant from './images/plant-concrete.png';
-import FadeInAnimation from './FadeService/fadeService';
+import plant from '../../../images/plant-concrete.png';
+import FadeInAnimation from '../../../services/FadeService/fadeService';
 
 
 export default class StandFor extends Component {

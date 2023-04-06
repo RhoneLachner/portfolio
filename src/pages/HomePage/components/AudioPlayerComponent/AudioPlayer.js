@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import audio from '../music/rhone-song.mp3';
-import pauseIcon from '../images/pause-icon-grey.png';
-import playIcon from '../images/play-icon-grey.png';
+import audio from '../../../../audio/rhone-song.mp3';
+import pauseIcon from '../../../../images/pause-icon-grey.png';
+import playIcon from '../../../../images/play-icon-grey.png';
 import './audioPlayer.css';
 
 // Audio Player component for a single song with play and pause functionality,
