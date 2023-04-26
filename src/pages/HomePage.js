@@ -71,7 +71,6 @@ const HomePage = () => {
 
         <div className="mobileLists">
           {/* <TechStack />
-
           <div className="secondDownArrowDiv">
             <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
           </div> */}
