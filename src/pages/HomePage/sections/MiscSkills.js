@@ -14,7 +14,7 @@ export default class MiscSkills extends Component {
           >
             <div className="skillsContainer">
               <div className="skills__text">
-                <p className="skillsTop">Misc. Skills:</p>
+                <p className="skillsTop">Misc. Hobbies & Skills:</p>
                 <p className="skillsList">
                   Licensed Massage Therapy <br />
                   Western Herbal Medicine <br />
