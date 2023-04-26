@@ -1,24 +1,34 @@
-import React, { Component } from 'react';
-import FadeInAnimation from '../../../utils/animation/motionAnimation';
+import React, { Component } from "react";
+import FadeInAnimation from "../../../utils/animation/motionAnimation";
 
 export default class Bio extends Component {
-    render() {
-        return (
-            <>  
-                <span className="rhoneIs">Hello! My name is Rhone, and I am a Full Stack Software Engineer <br/> based in Portland, OR.</span>
-                <div className='bioDiv'>
-                    <FadeInAnimation wrapperElement="p"   className='bioText'>
-                        With a creative eye, positive outlook, adaptive resilience, and broad skillset, I bring a
-                        methodical and holistic approach to all that I do. <br/><br/>
-                        I am an innovative problem solver, empathetic team builder, and communicative collaborator thriving in both team and solo environments, <br/>
-                        and I believe that every business is made better with an inclusive and diverse array of perspectives and backgrounds.
-                        <br/><br/>
-                        In 2022 I am focusing much of my energy on the creative aspects of coding, accessibility, and learning new mediums 
-                        to help bridge the gap between physical and digital worlds. 
-                    </FadeInAnimation>
-                </div>
-            </>
-        )
-    }
+  render() {
+    return (
+      <>
+        <span className="rhoneIs">
+          Hello! My name is Rhone, and I am a Full Stack Software Engineer{" "}
+          <br /> based in Portland, OR.
+        </span>
+        <div className="bioDiv">
+          <FadeInAnimation wrapperElement="p" className="bioText">
+            Hello! My name is Rhone and I am a Full-Stack Software Engineer,
+            Associate Product Manager, and Musician based in Vancouver, WA. <br /><br />
+            With a creative eye, positive outlook, adaptive resilience, and broad
+            skillset, I bring a methodical, human-centered, and holistic
+            approach to all that I do. <br /><br />
+         
+            In 2023: I will be shifting more of my professional focus into Technical Product Management with
+            the intention of incorporating several of my skillsets into a single
+            holistic setting. <br /><br />
+            I will be focusing much of my personal time on
+            Software Engineering volunteer work, creative coding, music
+            production, 3D design exploration, and preparing to record a new
+            album with my band.
+            <br /><br />
+            Thank you for taking a look at my portfolio!
+          </FadeInAnimation>
+        </div>
+      </>
+    );
+  }
 }
-

@@ -1,9 +1,9 @@
-import React from 'react';
-import LoadingPage from './pages/LoadingPage.js';
-import MusicPage from './pages/MusicPage.js';
-import HomePage from './pages/HomePage.js';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
+import React from "react";
+import LoadingPage from "./pages/LoadingPage.js";
+import MusicPage from "./pages/MusicPage.js";
+import HomePage from "./pages/HomePage.js";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
 
 const App = () => {
   return (

@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
-import audio from '../../../../assets/audio/rhone-song.mp3';
-import pauseIcon from '../../../../assets/images/pause-icon-grey.png';
-import playIcon from '../../../../assets/images/play-icon-grey.png';
-import './audioPlayer.css';
+import audio from "../../../../assets/audio/rhone-song.mp3";
+import pauseIcon from "../../../../assets/images/pause-icon-grey.png";
+import playIcon from "../../../../assets/images/play-icon-grey.png";
+import "./audioPlayer.css";
 
 // Audio Player component for a single song with play and pause functionality,
 // surrounded by a circlular text animation
@@ -11,7 +11,7 @@ const AudioPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef();
 
-//original audio file is too loud
+  //original audio file is too loud
   const setVolumeToHalf = () => {
     audioRef.current.volume = 0.12;
   };
@@ -28,9 +28,9 @@ const AudioPlayer = () => {
 
   return (
     <div>
-      <audio ref={audioRef} src={audio}  />
+      <audio ref={audioRef} src={audio} />
       <img
-      className="playPauseContainer"
+        className="playPauseContainer"
         src={isPlaying ? pauseIcon : playIcon}
         alt={isPlaying ? "Pause" : "Play"}
         onClick={togglePlayPause}

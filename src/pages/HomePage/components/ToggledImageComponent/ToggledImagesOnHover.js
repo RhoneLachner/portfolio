@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './toggledImagesOnHover.css';
+import React, { useState } from "react";
+import "./toggledImagesOnHover.css";
 
 //This file is for toggled image hover behavior only. There is no onClick bhavior.
 
@@ -15,11 +15,20 @@ const ToggledImagesOnHover = ({ imageA, imageB }) => {
   };
 
   return (
-    <div className="toggledImages-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <img src={isHovered ? imageB : imageA} className={isHovered ? "toggledImagesClassNameB" : "toggledImagesClassNameA"} alt="toggledHomepageImage" />
+    <div
+      className="toggledImages-container"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
+      <img
+        src={isHovered ? imageB : imageA}
+        className={
+          isHovered ? "toggledImagesClassNameB" : "toggledImagesClassNameA"
+        }
+        alt="toggledHomepageImage"
+      />
     </div>
   );
 };
 
 export default ToggledImagesOnHover;
-
