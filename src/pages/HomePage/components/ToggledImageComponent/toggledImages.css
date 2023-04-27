@@ -1,8 +1,6 @@
 /* This CSS file is being used for two separate component versions:
 ToggledImagesOnHover, and ToggledImagesWithMailModal. */
 
-// prettier-ignore
-
 .toggledImages-container {
   display: inline-block;
   transition: all 1s ease;
@@ -30,7 +28,7 @@ ToggledImagesOnHover, and ToggledImagesWithMailModal. */
   right: 0;
   bottom: 0;
   width: 100vw;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .ReactModal__Overlay--after-open {
@@ -47,11 +45,11 @@ ToggledImagesOnHover, and ToggledImagesWithMailModal. */
   height: auto;
   padding: 3%;
   background-color: rgb(46, 46, 46);
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   animation: zoom-in 900ms ease-out;
   outline: none;
-  opacity: 90%;
+  opacity: 80%;
 }
 
 @keyframes zoom-in {
@@ -67,24 +65,24 @@ ToggledImagesOnHover, and ToggledImagesWithMailModal. */
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin: 5%,
-} 
+  margin: 5%;
+}
 
 .modalButton {
   background-color: rgba(255, 255, 255, 0.856);
   border: none;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   color: #000000;
   cursor: pointer;
   font-size: 1rem;
   outline: none;
   margin: 1rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   text-align: center;
   transition: background-color 200ms ease-in-out, border 200ms ease-in-out;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-weight: 580;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
 }
 
 .modalButton:hover {

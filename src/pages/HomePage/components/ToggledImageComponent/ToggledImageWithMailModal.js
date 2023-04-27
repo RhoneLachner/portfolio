@@ -5,8 +5,6 @@ import './toggledImages.css';
 //This file includes onHover and onClick behavior for the main homepage image.
 //Images are toggled onHover, and an email modal opens onClick.
 
-// prettier-ignore
-
 Modal.setAppElement('#root');
 
 const ToggledImagesWithMailModal = ({ imageA, imageB }) => {
