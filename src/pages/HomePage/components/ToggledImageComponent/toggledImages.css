@@ -43,7 +43,7 @@ ToggledImagesOnHover, and ToggledImagesWithMailModal. */
   background-color: rgb(46, 46, 46);
   border-radius: 0.4rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  animation: zoom-in 900ms ease;
+  animation: zoom-in 1s ease;
   outline: none;
 }
 
@@ -86,7 +86,7 @@ ToggledImagesOnHover, and ToggledImagesWithMailModal. */
 }
 
 .modalButton:hover {
-  background-color: rgb(145, 172, 129);
+  background-color: rgb(132, 155, 118);
 }
 
 .modalButton:active {
