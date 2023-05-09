@@ -12,7 +12,7 @@ const BannerLinks = () => {
         <ExternalLink href="https://www.linkedin.com/in/rhonelachner/">
           <span className="linkedIn">LinkedIn</span>
         </ExternalLink>
-        <ExternalLink href="https://hopeandfailure.com">
+        <ExternalLink href="https://www.instagram.com/hopeandfailure/">
           <span className="music">Music</span>
         </ExternalLink>
 
