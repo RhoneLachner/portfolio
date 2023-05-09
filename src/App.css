@@ -61,9 +61,9 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: #000000;
-  text-shadow: 0 0 .4vh rgb(255, 255, 255);
-  font-size: 1.4rem;
-  transition: 0.4s;
+  text-shadow: 0 0 .6vh rgba(0, 0, 0, 0.429);
+  transition: 0s;
+  font-weight: 900;
 }
 
 a:active {
@@ -189,7 +189,6 @@ margin-bottom: 1%;;
 }
 
 .projectLink:hover {
-  font-size: 1.35rem;
   transition: 0.3s;
 }
 
@@ -384,8 +383,9 @@ vertical-align: 50%;
 }
 
 .causeLink:hover {
-  text-shadow: 0 0 .4vh rgb(255, 255, 255);
-  font-size: 1.1rem;
+  text-shadow: 0 0 .5vh rgba(0, 0, 0, 0.39);
+  font-size: 1.02rem;
+  font-weight: 800;
   transition: 0.4s;
 }
 
@@ -575,7 +575,6 @@ color: rgb(126, 126, 241);
     text-decoration: none;
     color: #000000;
     text-shadow: 0 0 .4vh rgb(255, 255, 255);
-    font-size: 1.3rem;
     transition: 0.4s;
   }
   
