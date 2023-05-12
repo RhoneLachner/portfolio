@@ -1,0 +1,103 @@
+build
+├── asset-manifest.json
+├── imgaes
+│   └── grey-fern.png
+├── index.html
+├── manifest.json
+├── robots.txt
+└── static
+    ├── css
+    │   ├── main.41df8771.chunk.css
+    │   └── main.41df8771.chunk.css.map
+    ├── js
+    │   ├── 2.94614779.chunk.js
+    │   ├── 2.94614779.chunk.js.LICENSE.txt
+    │   ├── 2.94614779.chunk.js.map
+    │   ├── 3.89487810.chunk.js
+    │   ├── 3.89487810.chunk.js.map
+    │   ├── main.e0de4cef.chunk.js
+    │   ├── main.e0de4cef.chunk.js.map
+    │   ├── runtime-main.c30b7070.js
+    │   └── runtime-main.c30b7070.js.map
+    └── media
+        ├── circle-text3.0d5ebed6.png
+        ├── down-arrow-pretty.a03c6b9d.png
+        ├── house-forest.58e1659d.png
+        ├── medicine.fc079276.png
+        ├── plant-concrete.c5973dc5.png
+        ├── portfolio-layers-notitle.de19633c.png
+        ├── rhone-dark-flute2.d7347e27.jpg
+        └── rhone-song.ab0b0cd1.mp3
+
+6 directories, 24 files
+public
+├── imgaes
+│   ├── grey-fern.png
+│   └── portfolio-screenshot.png
+├── index.html
+├── manifest.json
+└── robots.txt
+
+2 directories, 5 files
+src
+├── App.css
+├── App.js
+├── App.test.js
+├── assets
+│   ├── audio
+│   │   └── rhone-song.mp3
+│   └── images
+│       ├── circle-text.png
+│       ├── circle-text2.png
+│       ├── circle-text3.png
+│       ├── computer-forest-bw.png
+│       ├── computerforestbw.png
+│       ├── down-arrow-pretty.png
+│       ├── house-forest.png
+│       ├── massage-img.png
+│       ├── medicine.png
+│       ├── pause-icon-grey.png
+│       ├── plant-concrete.png
+│       ├── play-icon-grey.png
+│       ├── play-pause-img.png
+│       ├── play-pause.png
+│       ├── portfolio-layers-flute.png
+│       ├── portfolio-layers-notitle.png
+│       ├── rhone-dark-flute.658fae2dsmaller.jpg
+│       ├── rhone-dark-flute.png
+│       ├── rhone-dark-flute2.jpg
+│       └── rhone-flute-closeup.png
+├── index.css
+├── index.js
+├── pages
+│   ├── HomePage
+│   │   ├── components
+│   │   │   ├── AudioPlayerComponent
+│   │   │   │   ├── AudioPlayer.js
+│   │   │   │   └── audioPlayer.css
+│   │   │   ├── BannerLinks.js
+│   │   │   ├── SayHelloComponent
+│   │   │   │   ├── SayHello.js
+│   │   │   │   └── sayHello.css
+│   │   │   └── ToggledImageComponent
+│   │   │       ├── ToggledImageWithMailModal.js
+│   │   │       ├── ToggledImagesOnHover.js
+│   │   │       └── toggledImages.css
+│   │   └── sections
+│   │       ├── Bio.js
+│   │       ├── MiscSkills.js
+│   │       ├── PlacesHome.js
+│   │       ├── Projects.js
+│   │       ├── StandFor.js
+│   │       └── TechStack.js
+│   ├── HomePage.js
+│   ├── LoadingPage.js
+│   └── MusicPage.js
+├── reportWebVitals.js
+├── setupTests.js
+└── utils
+    └── animation
+        ├── fadeAnimation.js
+        └── motionAnimation.js
+
+13 directories, 47 files
