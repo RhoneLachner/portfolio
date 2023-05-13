@@ -442,7 +442,6 @@ h2,
   text-shadow: 0 0 0.5vh rgba(0, 0, 0, 0.124);
   font-size: 1.02rem;
   font-weight: 800;
-  transition: 0.4s;
 }
 
 .causeLink:active {
@@ -636,7 +635,6 @@ h2,
     text-decoration: none;
     color: #000000;
     text-shadow: 0 0 0.4vh rgb(255, 255, 255);
-    transition: 0.4s;
   }
 
   .bannerLinkItem:active {
@@ -703,7 +701,6 @@ h2,
 
   .projectLink:hover {
     font-size: 1.4rem;
-    transition: 0.3s;
   }
 
   .mobileLists {
