@@ -7,13 +7,13 @@ const BannerLinks = () => {
     <>
       <div className="externalLinks">
         <ExternalLink href="https://github.com/RhoneLachner">
-          <span className="code">Coding</span>
+          <span className="bannerLinkItem">Coding</span>
         </ExternalLink>
         <ExternalLink href="https://www.linkedin.com/in/rhonelachner/">
-          <span className="linkedIn">LinkedIn</span>
+          <span className="bannerLinkItem">LinkedIn</span>
         </ExternalLink>
         <ExternalLink href="https://www.instagram.com/hopeandfailure/">
-          <span className="music">Music</span>
+          <span className="bannerLinkItem">Music</span>
         </ExternalLink>
 
         {/* <Link className="music" to="/music">

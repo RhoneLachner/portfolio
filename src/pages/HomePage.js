@@ -16,17 +16,18 @@ import ToggledImagesWithMailModal from './HomePage/components/ToggledImageCompon
 const HomePage = () => {
   return (
     <>
-      <a name="top"></a>
+      <a href="top"  aria-label="Link to return to top of page">  <span id="visually-hidden-content-for-a11y">Return to top</span>
+</a>
 
       <div className="circleDiv">
-        <img src={circleText} className="circleImage" alt="circletext" />
+        <img src={circleText} className="circleImage" alt="circletext" aria-label="circle around play button reading: chill out here."/>
         <AudioPlayer />
       </div>
 
       <div className="titleName">
         <h1>RHONE LACHNER</h1>
       </div>
-      <form>
+      <div>
         <div className="bannerLinks">
           <BannerLinks />
         </div>
@@ -41,19 +42,19 @@ const HomePage = () => {
         </div>
 
         <div className="downArrowDiv">
-          <img className="downArrowImage" src={downArrow} alt="scroll downward" />
+          <img className="downArrowImage" src={downArrow} alt="scroll downward" aria-label="Downward arrow icon"/>
         </div>
 
         <Bio />
 
         <div className="secondDownArrowDiv">
-          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward"  aria-label="Downward arrow icon"/>
         </div>
 
         <Projects />
 
         <div className="secondDownArrowDiv">
-          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward"  aria-label="Downward arrow icon"/>
         </div>
 
         <div className="mobileLists">
@@ -61,24 +62,24 @@ const HomePage = () => {
           <PlacesHome />
 
           <div className="secondDownArrowDiv">
-            <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+            <img className="secondDownArrowImage" src={downArrow} alt="scroll downward"  aria-label="Downward arrow icon"/>
           </div>
 
           <StandFor />
 
           <div className="secondDownArrowDiv">
-            <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+            <img className="secondDownArrowImage" src={downArrow} alt="scroll downward"  aria-label="Downward arrow icon"/>
           </div>
 
           <MiscSkills />
         </div>
 
         <div className="secondDownArrowDiv">
-          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward" />
+          <img className="secondDownArrowImage" src={downArrow} alt="scroll downward"  aria-label="Downward arrow icon"/>
         </div>
 
         <SayHello />
-      </form>
+      </div>
     </>
   );
 };
