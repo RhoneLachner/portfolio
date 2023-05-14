@@ -72,9 +72,3 @@
   color: rgba(255, 255, 255, 0.756);
 }
 
-@media (max-device-width: 480px) {
-  #toTop, #contactHi {
-    font-size: 1.35rem;
-  }
-
-};
