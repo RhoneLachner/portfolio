@@ -58,16 +58,23 @@
 }
 
 /* using ID as a CSS override here until further refactor of App.css */
-#toTop {
+.toTop {
   margin-right: 6%;
   margin-left: 11%;
   font-size: 1.9rem;
   color: rgba(255, 255, 255, 0.756);
 }
 
-#contactHi {
+.contactHi {
   margin-right: 13%;
   margin-left: 7%;
   font-size: 1.9rem;
   color: rgba(255, 255, 255, 0.756);
 }
+
+@media (max-device-width: 480px) {
+  .toTop, .contactHi {
+    font-size: 1.35rem;
+  }
+
+};
