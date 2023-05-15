@@ -43,7 +43,7 @@ h1 {
   text-align: center;
   padding-top: 3.5%;
   margin-bottom: 1.75%;
-  margin-right: -16%;
+  margin-right: -15%;
   margin-left: 0%;
   font-family: "Kufam", cursive;
 }
@@ -602,8 +602,6 @@ h2,
     text-align: center;
     margin-top: 4%;
     margin-bottom: 4%;
-    left: 0;
-    right: 0;
     font-family: "Kufam", cursive;
   }
 
@@ -805,4 +803,3 @@ h2,
     margin-left: 0;
   }
 }
-
