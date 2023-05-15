@@ -565,46 +565,6 @@ h2,
     font-family: "Kufam", cursive;
   }
 
-  .bannerLinks {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 3.5%;
-    margin-bottom: 1.2%;
-  }
-
-  .bannerLinkItem {
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-
-    display: row;
-    justify-content: center;
-  }
-
-  .bannerLinkItem:link {
-    text-decoration: none;
-    color: #282c34;
-    font-size: 1.2rem;
-    font-family: "Rajdhani", sans-serif;
-    font-weight: 500;
-  }
-
-  .bannerLinkItem:visited {
-    text-decoration: none;
-    color: #282c34;
-  }
-
-  .bannerLinkItem:hover {
-    text-decoration: none;
-    color: #000000;
-    text-shadow: 0 0 0.4vh rgb(255, 255, 255);
-  }
-
-  .bannerLinkItem:active {
-    text-decoration: none;
-    color: #282c34;
-  }
-
   .mainImageDiv {
     display: flex;
     justify-content: center;
