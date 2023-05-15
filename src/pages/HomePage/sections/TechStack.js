@@ -2,6 +2,8 @@ import React from "react";
 import computerForest from "../../../assets/images/computer-forest-bw.png";
 import FadeInAnimation from "../../../utils/animation/motionAnimation";
 
+//PAGE ARCHIVED
+
 const TechStack = () => {
   return (
     <>
