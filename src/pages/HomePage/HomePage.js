@@ -1,17 +1,17 @@
 import React from "react";
-import BannerLinks from "./HomePage/components/BannerLinks/BannerLinks";
-import Bio from "./HomePage/sections/Bio";
-import Projects from "./HomePage/sections/Projects";
-import PlacesHome from "./HomePage/sections/AboutMeLists/PlacesHome";
-import StandFor from "./HomePage/sections/AboutMeLists/StandFor";
-import MiscSkills from "./HomePage/sections/AboutMeLists/MiscSkills";
-import SayHello from "./HomePage/components/SayHelloComponent/SayHello";
-import AudioPlayer from "./HomePage/components/AudioPlayerComponent/AudioPlayer";
-import circleText from "../assets/images/circle-text3.png";
-import rhoneFluteDark from "../assets/images/rhone-dark-flute2.jpg";
-import downArrow from "../assets/images/down-arrow-pretty.png";
-import rhoneFluteLayers from "../assets/images/portfolio-layers-notitle.png";
-import ToggledImagesWithMailModal from "./HomePage/components/ToggledImageComponent/ToggledImageWithMailModal";
+import BannerLinks from "../HomePage/components/BannerLinks/BannerLinks";
+import Bio from "../HomePage/sections/Bio/Bio";
+import Projects from "../HomePage/sections/Projects/Projects";
+import PlacesHome from "../HomePage/sections/AboutMeLists/PlacesHome";
+import StandFor from "../HomePage/sections/AboutMeLists/StandFor";
+import MiscSkills from "../HomePage/sections/AboutMeLists/MiscSkills";
+import SayHello from "../HomePage/components/SayHelloComponent/SayHello";
+import AudioPlayer from "../HomePage/components/AudioPlayerComponent/AudioPlayer";
+import circleText from "../../assets/images/circle-text3.png";
+import rhoneFluteDark from "../../assets/images/rhone-dark-flute2.jpg";
+import downArrow from "../../assets/images/down-arrow-pretty.png";
+import rhoneFluteLayers from "../../assets/images/portfolio-layers-notitle.png";
+import ToggledImagesWithMailModal from "../HomePage/components/ToggledImageComponent/ToggledImageWithMailModal";
 import "./homePage.css";
 
 const HomePage = () => {

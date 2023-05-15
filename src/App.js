@@ -1,7 +1,7 @@
 import React from "react";
 import LoadingPage from "./pages/LoadingPage.js";
-import MusicPage from "./pages/MusicPage.js";
-import HomePage from "./pages/HomePage.js";
+import MusicPage from "./pages/MusicPage/MusicPage.js";
+import HomePage from "./pages/HomePage/HomePage.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 

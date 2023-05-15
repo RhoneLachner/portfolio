@@ -1,5 +1,5 @@
 import React from "react";
-import FadeInAnimation from "../../../utils/animation/motionAnimation";
+import FadeInAnimation from "../../../../utils/animation/motionAnimation";
 import './bio.css';
 
 const Bio = () => {

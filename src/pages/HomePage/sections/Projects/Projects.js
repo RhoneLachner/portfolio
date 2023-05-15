@@ -1,6 +1,6 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
-import FadeInAnimation from "../../../utils/animation/motionAnimation";
+import FadeInAnimation from "../../../../utils/animation/motionAnimation";
 import "./projects.css";
 
 const Projects = () => {

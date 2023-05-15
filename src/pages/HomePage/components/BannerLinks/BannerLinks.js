@@ -8,7 +8,7 @@ const BannerLinks = () => {
     <>
       <div className="externalLinks">
         <ExternalLink href="https://github.com/RhoneLachner">
-          <span className="bannerLinkItem">Coding</span>
+          <span className="bannerLinkItem">GitHub</span>
         </ExternalLink>
         <ExternalLink href="https://www.linkedin.com/in/rhonelachner/">
           <span className="bannerLinkItem">LinkedIn</span>
