@@ -1,12 +1,12 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
 import FadeInAnimation from "../../../utils/animation/motionAnimation";
+import "./projects.css";
 
 const Projects = () => {
   return (
     <>
       <form className="projectForm">
-
         <FadeInAnimation wrapperElement="div" className="projectItem3">
           <div className="projectTitle">Selected Development Projects:</div>
           <div className="projectItemTitle">beHuman VS Code Extension</div>
@@ -69,7 +69,6 @@ const Projects = () => {
             <div className="projectLink"> ✧ Go to App ✧ </div>
           </ExternalLink>
         </FadeInAnimation>
-
       </form>
     </>
   );

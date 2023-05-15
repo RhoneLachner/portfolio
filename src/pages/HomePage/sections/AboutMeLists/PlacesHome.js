@@ -1,6 +1,7 @@
 import React from "react";
-import places from "../../../assets/images/house-forest.png";
-import FadeInAnimation from "../../../utils/animation/motionAnimation";
+import places from "../../../../assets/images/house-forest.png";
+import FadeInAnimation from "../../../../utils/animation/motionAnimation";
+import "./aboutMeLists.css";
 
 const PlacesHome = () => {
   return (

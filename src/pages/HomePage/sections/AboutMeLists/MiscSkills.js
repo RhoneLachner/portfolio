@@ -1,6 +1,7 @@
 import React from "react";
-import medicine from "../../../assets/images/medicine.png";
-import FadeInAnimation from "../../../utils/animation/motionAnimation";
+import medicine from "../../../../assets/images/medicine.png";
+import FadeInAnimation from "../../../../utils/animation/motionAnimation";
+import "./aboutMeLists.css";
 
 const MiscSkills = () => {
   return (

@@ -1,0 +1,29 @@
+.rhoneIs {
+  font-size: 1.2rem;
+  margin-top: 7%;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 550;
+}
+
+.bioDiv,
+.rhoneIs {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.bioText,
+p {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  width: 48%;
+  font-size: 1rem;
+  padding-top: 0.5%;
+  margin-bottom: 7%;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+}

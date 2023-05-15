@@ -1,7 +1,8 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
-import plant from "../../../assets/images/plant-concrete.png";
-import FadeInAnimation from "../../../utils/animation/motionAnimation";
+import plant from "../../../../assets/images/plant-concrete.png";
+import FadeInAnimation from "../../../../utils/animation/motionAnimation";
+import "./aboutMeLists.css";
 
 const StandFor = () => {
   return (

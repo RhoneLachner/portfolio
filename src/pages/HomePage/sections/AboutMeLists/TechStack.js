@@ -1,6 +1,7 @@
 import React from "react";
-import computerForest from "../../../assets/images/computer-forest-bw.png";
-import FadeInAnimation from "../../../utils/animation/motionAnimation";
+import computerForest from "../../../../assets/images/computer-forest-bw.png";
+import FadeInAnimation from "/src/utils/animation/fadeAnimation";
+import "./aboutMeLists.css";
 
 //PAGE ARCHIVED
 

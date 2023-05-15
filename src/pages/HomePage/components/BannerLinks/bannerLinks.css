@@ -40,7 +40,6 @@
 }
 
 @media (max-device-width: 480px) {
-
   .bannerLinks {
     align-items: center;
     display: flex;
@@ -80,5 +79,4 @@
     text-decoration: none;
     color: #282c34;
   }
-
 }

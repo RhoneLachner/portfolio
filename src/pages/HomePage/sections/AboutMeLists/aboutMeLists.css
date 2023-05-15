@@ -1,0 +1,389 @@
+.computer__image,
+.places__image,
+.plant__image,
+.skills__image {
+  width: 50%;
+  height: 25%;
+  box-shadow: 1.5vh 1.5vh 3vh rgba(0, 0, 0, 0.408);
+}
+
+.techStackTop {
+  display: flex;
+  justify-content: left;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
+
+.techStackList {
+  font-size: 1rem;
+  text-align: left;
+  text-justify: left;
+  width: 100%;
+  color: black;
+}
+
+.techStack__text {
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 2%;
+  align-content: right;
+  width: 100%;
+  vertical-align: text-top;
+}
+
+.container {
+  display: flex;
+  width: auto;
+  margin-top: 0;
+  margin-right: 45%;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.container > img {
+  float: left;
+  width: 32%;
+  height: 32%;
+  margin-left: 10%;
+  margin-right: 0.5%;
+  margin-top: 3%;
+  vertical-align: 50%;
+}
+
+.placesTop {
+  display: flex;
+  text-align: right;
+  justify-self: right;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
+
+.skills__text > .skillsTop {
+  text-align: right;
+  margin-left: 65%;
+}
+
+.placesList {
+  display: flex;
+  align-content: right;
+  font-size: 1rem;
+  text-align: right;
+  text-justify: right;
+  width: 100%;
+  color: black;
+}
+
+.places__text {
+  display: flex;
+  flex-direction: column;
+  justify-self: right;
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 0%;
+  margin-right: 0%;
+  margin-left: 8%;
+  align-content: right;
+  vertical-align: text-top;
+}
+
+.placesContainer {
+  margin-left: 60%;
+  display: flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.placesList,
+.placesTop {
+  display: flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.places__image {
+  display: flex;
+  align-self: right;
+  float: right;
+  width: 44%;
+  height: 44%;
+  margin-left: 8%;
+  margin-right: 7%;
+  margin-top: 3%;
+  vertical-align: 50%;
+}
+
+.plant__image {
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+}
+
+.standForTop {
+  display: flex;
+  justify-content: left;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
+
+.standForList,
+.standForLinkList {
+  font-size: 1rem;
+  text-align: left;
+  text-justify: left;
+  justify-content: left;
+  width: 100%;
+  color: black;
+}
+
+.standFor__text {
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 2%;
+  align-content: right;
+  width: 100%;
+  vertical-align: text-top;
+}
+
+.plant__image {
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin-left: 10%;
+  margin-right: 0.5%;
+  margin-top: 3%;
+  vertical-align: 50%;
+}
+
+.standForLinkList,
+.causeLink {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 2%;
+  text-align: left;
+  width: 100%;
+  vertical-align: text-top;
+}
+
+.causeLink {
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-decoration: none;
+  color: #282c34;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.causeLink:visited {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.causeLink:hover {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  transition: 0s;
+  text-shadow: 0 0 0.5vh rgba(0, 0, 0, 0.124);
+  font-size: 1.02rem;
+  font-weight: 800;
+}
+
+.causeLink:active {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.skillsTop {
+  display: flex;
+  justify-self: right;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  color: black;
+}
+
+.skillsList {
+  display: flex;
+  align-content: right;
+  font-size: 1rem;
+  text-align: right;
+  text-justify: right;
+  width: 100%;
+  color: black;
+}
+
+.skills__text {
+  display: flex;
+  flex-direction: column;
+  justify-self: right;
+  font-family: "Rajdhani", sans-serif;
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 0%;
+  align-content: right;
+  vertical-align: text-top;
+}
+
+.skillsContainer {
+  margin-left: 50%;
+  display: flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.skillsList,
+.skillsTop {
+  display: flex;
+  width: auto;
+  justify-content: right;
+  align-items: right;
+  margin-top: 0;
+  align-self: right;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.skills__image {
+  display: flex;
+  align-self: right;
+  float: right;
+  width: 36%;
+  height: 36%;
+  margin-left: 8%;
+  margin-right: 7%;
+  margin-top: 3%;
+  vertical-align: 50%;
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+}
+
+@media (max-device-width: 480px) {
+  .mobileLists {
+    margin-top: 10%;
+  }
+
+  .mobileLists,
+  .placesContainer,
+  .container,
+  .skillsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0%;
+    max-width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .computer__image,
+  .places__image,
+  .plant__image,
+  .skills__image {
+    display: none;
+  }
+
+  .techStackTop,
+  .placesTop,
+  .standForTop,
+  .skillsTop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 4%;
+  }
+
+  .skills__text > .skillsTop {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 0vh;
+    margin-left: 0%;
+    padding: 0%;
+    width: 100%;
+    color: black;
+  }
+
+  .techStack__text,
+  .places__text,
+  .standFor__text,
+  .skills__text,
+  .techStackList,
+  .placesList,
+  .standForList,
+  .skillsList,
+  .causeLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+    font-weight: 400;
+    color: black;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  .causeLink {
+    font-weight: 600;
+  }
+
+  .standForLinkList {
+    margin-left: 0;
+  }
+}

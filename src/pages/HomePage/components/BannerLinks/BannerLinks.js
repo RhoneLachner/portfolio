@@ -1,6 +1,6 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
-import './bannerLinks.css';
+import "./bannerLinks.css";
 // import { Link } from "react-router-dom";
 
 const BannerLinks = () => {

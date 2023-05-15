@@ -1,0 +1,163 @@
+#visually-hidden-content-for-a11y {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.titleName {
+  max-width: 100%;
+}
+
+.titleName,
+h1 {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 3.5%;
+  margin-bottom: 1.75%;
+  margin-right: -15%;
+  margin-left: 0%;
+  font-family: "Kufam", cursive;
+}
+
+.mainImageDiv {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  margin-top: 0%;
+  background-color: black;
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  height: 70%;
+  position: relative;
+  max-height: 70%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.mainImageDiv > .mainImageRhoneFlute {
+  width: 60%;
+  height: inherit;
+  justify-self: center;
+  justify-items: center;
+  align-self: center;
+  align-content: center;
+  max-height: 100vh;
+}
+
+.downArrowDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 6.5%;
+}
+
+.secondDownArrowDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 0%;
+}
+
+.downArrowImage {
+  width: 4%;
+  height: 4%;
+}
+
+.secondDownArrowImage {
+  width: 2.5%;
+  height: 2.5%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* !!!!!!!!!!!!!!!!!!! */
+/* MEDIA QUERIES BELOW */
+/* !!!!!!!!!!!!!!!!!!! */
+
+@media (max-device-width: 480px) {
+  .titleName {
+    max-width: 100%;
+  }
+
+  .titleName,
+  h1 {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: "Kufam", cursive;
+  }
+
+  .mainImageDiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 0%;
+    background-color: black;
+    box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    position: relative;
+  }
+
+  .mainImageDiv > .mainImageRhoneFlute {
+    width: 100%;
+    height: auto;
+    justify-self: center;
+    justify-items: center;
+    align-self: center;
+    align-content: center;
+  }
+
+  .downArrowDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 6.5%;
+  }
+
+  .secondDownArrowDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    margin: 1vh;
+  }
+
+  .downArrowImage {
+    width: 5.5%;
+    height: 5.5%;
+  }
+
+  .secondDownArrowImage {
+    width: 3%;
+    height: 3%;
+  }
+}
