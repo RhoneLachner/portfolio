@@ -43,8 +43,8 @@ h1 {
   text-align: center;
   padding-top: 3.5%;
   margin-bottom: 1.75%;
-  margin-right: -15%;
-  margin-left: 1%;
+  margin-right: -16%;
+  margin-left: 0%;
   font-family: "Kufam", cursive;
 }
 
@@ -57,11 +57,14 @@ h1 {
 }
 
 .bannerLinkItem {
+  align-self: center;
+  text-align: center;
   color: #282c34;
   font-size: 1.3rem;
   font-family: "Rajdhani", sans-serif;
   font-weight: 500;
-  margin-right: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   display: row;
   justify-content: center;
 }
@@ -591,7 +594,7 @@ h2,
 
   .titleName,
   h1 {
-    font-size: 4.2rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -599,8 +602,8 @@ h2,
     text-align: center;
     margin-top: 4%;
     margin-bottom: 4%;
-    margin-right: 1%;
-    margin-left: 6%;
+    left: 0;
+    right: 0;
     font-family: "Kufam", cursive;
   }
 
@@ -613,7 +616,9 @@ h2,
   }
 
   .bannerLinkItem {
-    margin-right: 2.8rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+
     display: row;
     justify-content: center;
   }
@@ -800,3 +805,4 @@ h2,
     margin-left: 0;
   }
 }
+
