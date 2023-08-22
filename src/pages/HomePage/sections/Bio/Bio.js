@@ -1,35 +1,47 @@
 import React from "react";
 import FadeInAnimation from "../../../../utils/animation/motionAnimation";
-import './bio.css';
+import "./bio.css";
 
 const Bio = () => {
   return (
     <>
       <span className="rhoneIs">
-        Hello! My name is Rhone and I am a Full-Stack Software Engineer,
+        Hello! My name is Rhone and I am a Full-Stack Software Engineer
         <br></br>
-        Product Manager, and Musician based in Vancouver, WA.
+        and Musician based in Portland, Oregon.
       </span>
       <div className="bioDiv">
         <FadeInAnimation wrapperElement="p" className="bioText">
           <br />
-          With a creative eye, positive outlook, adaptive resilience, and broad
-          skillset, I bring a methodical, human-centered, and holistic approach
-          to all that I do. <br />
+          I am a creative and innovative problem solver, empathetic team
+          builder, optimist, and communicative collaborator with a passion for
+          learning, problem solving, music, and community. <br />
+          <br></br>
+          I thrive in both collaborative and solo environments, and feel best
+          when I am actively spending time researching, learning, creating, and
+          helping others.
+          <br></br>
+          <br></br>
+          I believe strongly in inclusion, equity, authenticity,
+          and diversity, and I enjoy approaching Tech with a holistic and
+          human-centered perspective. <br />
           <br />
-          In 2023:
-          <br />
-          <br />
-          I have shifted much of my professional focus into Technical Product
-          Management with the intention of incorporating several of my skillsets
-          into a single holistic setting. <br />
-          <br />
-          I will be focusing much of my personal time on Software Engineering
-          volunteer work, creative coding, music production, 3D design
-          exploration, learning new technologies, and preparing to record a new
-          album with my band.
-          <br />
-          <br />
+          <br></br>
+          Recent Tech Stack:
+          <br></br>
+          JavaScript ◆ React.js ◆ TypeScript ◆ Node.js ◆ Contentful CMS ◆
+          Material UI ◆ REST APIs ◆ Postgres
+          <br></br>
+          <br></br>
+          Currently Learning:
+          <br></br>
+          Golang ◆ Docker ◆ Playwright ◆ Next.js
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+
           Thank you for taking a look at my portfolio!
         </FadeInAnimation>
       </div>

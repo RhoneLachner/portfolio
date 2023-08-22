@@ -32,8 +32,8 @@ const StandFor = () => {
                 CAUSES TO DONATE TO LINKED BELOW: <br />
               </p>
               <div className="standForLinkList">
-                <ExternalLink href="https://translifeline.org/">
-                  <p className="causeLink">TransLifeline</p>
+              <ExternalLink href="https://portlandrescuemission.org/">
+                  <p className="causeLink">Portland Rescue Mission</p>
                 </ExternalLink>{" "}
                 <br />
                 <ExternalLink href="https://bluemountainsbiodiversityproject.org/">
@@ -42,14 +42,9 @@ const StandFor = () => {
                   </p>
                 </ExternalLink>{" "}
                 <br />
-                <ExternalLink href="https://portlandrescuemission.org/">
-                  <p className="causeLink">Portland Rescue Mission</p>
+                <ExternalLink href="https://translifeline.org/">
+                  <p className="causeLink">TransLifeline</p>
                 </ExternalLink>{" "}
-                <br />
-                <ExternalLink href="https://www.dontshootpdx.org/">
-                  <p className="causeLink">Don't Shoot PDX</p>
-                </ExternalLink>{" "}
-                <br />
               </div>
             </div>
           </div>
