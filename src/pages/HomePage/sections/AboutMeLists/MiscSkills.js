@@ -24,7 +24,7 @@ const MiscSkills = () => {
                 Music Composition & Performance <br />
                 Digital Photography <br />
                 Self-Defense <br />
-                Natal Chart Astrology Readings <br />
+                Astrology Readings <br />
               </p>
             </div>
             <img
