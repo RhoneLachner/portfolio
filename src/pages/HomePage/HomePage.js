@@ -7,10 +7,10 @@ import StandFor from "../HomePage/sections/AboutMeLists/StandFor";
 import MiscSkills from "../HomePage/sections/AboutMeLists/MiscSkills";
 import SayHello from "../HomePage/components/SayHelloComponent/SayHello";
 import AudioPlayer from "../HomePage/components/AudioPlayerComponent/AudioPlayer";
-import circleText from "../../assets/images/circle-text3.png";
-import rhoneFluteDark from "../../assets/images/rhone-dark-flute2.jpg";
-import downArrow from "../../assets/images/down-arrow-pretty.png";
-import rhoneFluteLayers from "../../assets/images/portfolio-layers-notitle.png";
+import circleText from "../../assets/images/audio-player-circle-text.webp";
+import rhoneFluteDark from "../../assets/images/dark-flute-layer-2.webp";
+import downArrow from "../../assets/images/down-arrow-icon.webp";
+import rhoneFluteLayers from "../../assets/images/dark-flute-layer-1.webp";
 import ToggledImagesWithMailModal from "../HomePage/components/ToggledImageComponent/ToggledImageWithMailModal";
 import "./homePage.css";
 

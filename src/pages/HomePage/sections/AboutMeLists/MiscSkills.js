@@ -1,5 +1,5 @@
 import React from "react";
-import medicine from "../../../../assets/images/medicine.png";
+import medicine from "../../../../assets/images/about-me-medicine.webp";
 import FadeInAnimation from "../../../../utils/animation/motionAnimation";
 import "./aboutMeLists.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import places from "../../../../assets/images/house-forest.png";
+import places from "../../../../assets/images/about-me-house-forest.webp";
 import FadeInAnimation from "../../../../utils/animation/motionAnimation";
 import "./aboutMeLists.css";
 

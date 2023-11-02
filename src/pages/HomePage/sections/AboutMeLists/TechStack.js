@@ -1,5 +1,5 @@
 import React from "react";
-import computerForest from "../../../../assets/images/computer-forest-bw.png";
+import computerForest from "../../../../assets/images/about-me-computer-forest.webp";
 import FadeInAnimation from "/src/utils/animation/fadeAnimation";
 import "./aboutMeLists.css";
 

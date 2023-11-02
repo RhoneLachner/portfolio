@@ -1,6 +1,6 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
-import plant from "../../../../assets/images/plant-concrete.png";
+import plant from "../../../../assets/images/about-me-plant-concrete.webp";
 import FadeInAnimation from "../../../../utils/animation/motionAnimation";
 import "./aboutMeLists.css";
 
