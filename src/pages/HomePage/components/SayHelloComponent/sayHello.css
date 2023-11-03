@@ -19,7 +19,7 @@
   justify-content: center;
   align-self: center;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 3%;
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.661);
   font-family: "Rajdhani", sans-serif;
@@ -73,4 +73,30 @@
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.756);
   font-family: "Rajdhani", sans-serif;
+}
+
+@media (max-device-width: 480px) {
+  .sayHi {
+    padding-bottom: 13vh;
+  }
+
+  .thankYouText {
+    padding-top: 3vh;
+  }
+
+  .sayHiText {
+    font-size: 4rem;
+    padding-top: 8vh;
+    padding-bottom: 0vh;
+  }
+
+  #toTop,
+  #contactHi {
+    padding: 7px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(45, 45, 45);
+    border: none;
+    border-radius: 3px;
+  }
 }

@@ -4,29 +4,37 @@
   min-width: 20%;
   max-width: 20%;
   height: 25%;
-  box-shadow: 1.5vh 1.5vh 3vh rgba(0, 0, 0, 0.408);
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 }
 
 .container {
   display: flex;
   width: auto;
-  margin-top: 0;
   margin-right: 45%;
   align-self: right;
   margin-bottom: 5%;
   margin-top: 5%;
 }
 
-.standForTop {
+.standForTop,
+.skillsTop,
+.placesTop {
   display: flex;
-  justify-self: left;
-  justify-content: left;
   font-size: 1.1rem;
   font-weight: 500;
-  margin-left: 15%;
-  margin: 0%;
-  width: 100%;
   color: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.skillsTop,
+.placesTop {
+  justify-content: right;
+}
+
+.standForTop {
+  justify-content: left;
 }
 
 .standForList,
@@ -53,7 +61,6 @@
   margin-right: 6%;
   margin-top: 1%;
   vertical-align: 50%;
-  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 }
 
 .standForContainer {
@@ -81,7 +88,7 @@
   text-align: left;
   justify-content: left;
   margin-top: 0;
-  margin-bottom: .1vh;
+  margin-bottom: 0.1vh;
   text-decoration: none;
   color: #282c34;
   font-family: "Rajdhani", sans-serif;
@@ -105,21 +112,6 @@
 .causeLink:active {
   text-decoration: none;
   color: #282c34;
-}
-
-.skillsTop,
-.placesTop {
-  display: flex;
-  justify-self: right;
-  justify-content: right;
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-left: 15%;
-  margin-right: 5%;
-  margin: 0%;
-  padding: 0%;
-  width: 100%;
-  color: black;
 }
 
 .skillsList,
@@ -157,19 +149,6 @@
   align-self: right;
   margin-bottom: 5%;
   margin-top: 3%;
-}
-
-.skillsList,
-.placesList .skillsTop,
-.placesTop {
-  display: flex;
-  width: auto;
-  justify-content: right;
-  align-items: right;
-  margin-top: 0;
-  align-self: right;
-  margin-bottom: 5%;
-  margin-top: 5%;
 }
 
 .skills__image,
@@ -253,8 +232,7 @@
   .skills__text,
   .placesList,
   .standForList,
-  .skillsList,
-  .causeLink {
+  .skillsList {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -271,11 +249,9 @@
     margin-bottom: 0%;
   }
 
-  .causeLink {
-    font-weight: 600;
+  .standForList {
+    margin-left: 2vh;
+    margin-right: 2vh;
   }
 
-  .standForLinkList {
-    margin-left: 0;
-  }
 }
