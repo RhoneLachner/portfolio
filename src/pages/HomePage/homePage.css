@@ -10,13 +10,13 @@
   border: 0;
 }
 
-.titleName {
+.titleNameDiv {
   max-width: 100%;
 }
 
-.titleName,
-h1 {
-  font-size: 5rem;
+.titleNameDiv,
+.titleText {
+  font-size: 3.8rem;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -97,21 +97,16 @@ h1 {
 /* !!!!!!!!!!!!!!!!!!! */
 
 @media (max-device-width: 480px) {
-  .titleName {
-    max-width: 100%;
-  }
-
-  .titleName,
-  h1 {
-    font-size: 4rem;
+  .titleNameDiv,
+  .titleText {
+    font-size: 5.3rem;
     display: flex;
     justify-content: center;
     align-self: center;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    font-family: "Kufam", cursive;
+    margin: 4%;
+    height: auto;
   }
 
   .mainImageDiv {

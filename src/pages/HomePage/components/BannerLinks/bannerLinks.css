@@ -13,8 +13,8 @@
   font-size: 1.3rem;
   font-family: "Rajdhani", sans-serif;
   font-weight: 500;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   justify-content: center;
 }
 
@@ -40,18 +40,18 @@
 }
 
 @media (max-device-width: 480px) {
-  .bannerLinks {
+  .externalLinks {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 3.5%;
+    margin-top: 1.2%;
     margin-bottom: 1.2%;
   }
 
   .bannerLinkItem {
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-
+    margin-right: 3.8rem;
+    margin-left: 3.8rem;
+    font-size: 3.1rem;
     display: row;
     justify-content: center;
   }
@@ -59,7 +59,7 @@
   .bannerLinkItem:link {
     text-decoration: none;
     color: #282c34;
-    font-size: 1.2rem;
+    font-size: 3rem;
     font-family: "Rajdhani", sans-serif;
     font-weight: 500;
   }

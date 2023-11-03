@@ -5,8 +5,8 @@ import "./aboutMeLists.css";
 
 const MiscSkills = () => {
   return (
-    <div>
-      <>
+    <>
+      <div>
         <FadeInAnimation
           wrapperElement="div"
           direction="left"
@@ -33,8 +33,8 @@ const MiscSkills = () => {
             ></img>
           </div>
         </FadeInAnimation>
-      </>
-    </div>
+      </div>
+    </>
   );
 };
 

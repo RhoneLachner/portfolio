@@ -5,7 +5,7 @@ import "./sayHello.css";
 
 const SayHello = () => {
   return (
-    <form className="sayHi">
+    <div className="sayHi">
       <FadeInAnimation
         wrapperElement="div"
         direction="down"
@@ -38,7 +38,7 @@ const SayHello = () => {
           </a>
         </div>
       </FadeInAnimation>
-    </form>
+    </div>
   );
 };
 

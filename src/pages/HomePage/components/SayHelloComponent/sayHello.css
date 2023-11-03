@@ -62,7 +62,7 @@
 #toTop {
   margin-right: 6%;
   margin-left: 11%;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: rgba(255, 255, 255, 0.756);
   font-family: "Rajdhani", sans-serif;
 }
@@ -77,26 +77,27 @@
 
 @media (max-device-width: 480px) {
   .sayHi {
-    padding-bottom: 13vh;
+    padding-bottom: 10vh;
   }
 
   .thankYouText {
     padding-top: 3vh;
+    font-size: 2.5rem;
   }
 
   .sayHiText {
-    font-size: 4rem;
-    padding-top: 8vh;
-    padding-bottom: 0vh;
+    padding-top: 11vh;
+    padding-bottom: 1vh;
+    font-size: 10rem;
   }
 
   #toTop,
   #contactHi {
-    padding: 7px;
-    font-size: 1rem;
+    padding: 1.5vh;
     font-weight: 500;
-    background-color: rgb(45, 45, 45);
+    background-color: rgb(48, 48, 48);
     border: none;
-    border-radius: 3px;
+    border-radius: 12px;
+    font-size: 2.8rem;
   }
 }
