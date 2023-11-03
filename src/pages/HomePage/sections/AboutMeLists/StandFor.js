@@ -13,9 +13,8 @@ const StandFor = () => {
           direction="right"
           className="standFor"
         >
-          <div className="container">
+          <div className="standForContainer">
             <img className="plant__image" src={plant} alt="plant growing"></img>
-
             <div className="standFor__text">
               <p className="standForTop">Things I stand for:</p>
               <p className="standForList">
@@ -32,7 +31,7 @@ const StandFor = () => {
                 CAUSES TO DONATE TO LINKED BELOW: <br />
               </p>
               <div className="standForLinkList">
-              <ExternalLink href="https://portlandrescuemission.org/">
+                <ExternalLink href="https://portlandrescuemission.org/">
                   <p className="causeLink">Portland Rescue Mission</p>
                 </ExternalLink>{" "}
                 <br />

@@ -1,38 +1,10 @@
-.computer__image,
 .places__image,
 .plant__image,
 .skills__image {
-  width: 50%;
+  min-width: 20%;
+  max-width: 20%;
   height: 25%;
   box-shadow: 1.5vh 1.5vh 3vh rgba(0, 0, 0, 0.408);
-}
-
-.techStackTop {
-  display: flex;
-  justify-content: left;
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding: 0%;
-  width: 100%;
-  color: black;
-}
-
-.techStackList {
-  font-size: 1rem;
-  text-align: left;
-  text-justify: left;
-  width: 100%;
-  color: black;
-}
-
-.techStack__text {
-  font-family: "Rajdhani", sans-serif;
-  margin-top: 0%;
-  margin-left: 5%;
-  margin-right: 2%;
-  align-content: right;
-  width: 100%;
-  vertical-align: text-top;
 }
 
 .container {
@@ -45,101 +17,14 @@
   margin-top: 5%;
 }
 
-.container > img {
-  float: left;
-  width: 32%;
-  height: 32%;
-  margin-left: 10%;
-  margin-right: 0.5%;
-  margin-top: 3%;
-  vertical-align: 50%;
-}
-
-.placesTop {
-  display: flex;
-  text-align: right;
-  justify-self: right;
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin: 0%;
-  padding: 0%;
-  width: 100%;
-  color: black;
-}
-
-.skills__text > .skillsTop {
-  text-align: right;
-  margin-left: 65%;
-}
-
-.placesList {
-  display: flex;
-  align-content: right;
-  font-size: 1rem;
-  text-align: right;
-  text-justify: right;
-  width: 100%;
-  color: black;
-}
-
-.places__text {
-  display: flex;
-  flex-direction: column;
-  justify-self: right;
-  font-family: "Rajdhani", sans-serif;
-  margin-top: 0%;
-  margin-right: 0%;
-  margin-left: 8%;
-  align-content: right;
-  vertical-align: text-top;
-}
-
-.placesContainer {
-  margin-left: 60%;
-  display: flex;
-  width: auto;
-  justify-content: right;
-  align-items: right;
-  margin-top: 0;
-  align-self: right;
-  margin-bottom: 5%;
-  margin-top: 3%;
-}
-
-.placesList,
-.placesTop {
-  display: flex;
-  width: auto;
-  justify-content: right;
-  align-items: right;
-  margin-top: 0;
-  align-self: right;
-  margin-bottom: 5%;
-  margin-top: 5%;
-}
-
-.places__image {
-  display: flex;
-  align-self: right;
-  float: right;
-  width: 44%;
-  height: 44%;
-  margin-left: 8%;
-  margin-right: 7%;
-  margin-top: 3%;
-  vertical-align: 50%;
-}
-
-.plant__image {
-  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
-}
-
 .standForTop {
   display: flex;
+  justify-self: left;
   justify-content: left;
   font-size: 1.1rem;
   font-weight: 500;
-  padding: 0%;
+  margin-left: 15%;
+  margin: 0%;
   width: 100%;
   color: black;
 }
@@ -157,21 +42,27 @@
 .standFor__text {
   font-family: "Rajdhani", sans-serif;
   margin-top: 0%;
-  margin-left: 5%;
-  margin-right: 2%;
-  align-content: right;
+  align-content: left;
   width: 100%;
   vertical-align: text-top;
 }
 
 .plant__image {
   float: left;
-  width: 30%;
-  height: 30%;
-  margin-left: 10%;
-  margin-right: 0.5%;
-  margin-top: 3%;
+  margin-left: 7%;
+  margin-right: 6%;
+  margin-top: 1%;
   vertical-align: 50%;
+  box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
+}
+
+.standForContainer {
+  margin-right: 40%;
+  display: flex;
+  width: auto;
+  justify-content: left;
+  margin-bottom: 5%;
+  margin-top: 3%;
 }
 
 .standForLinkList,
@@ -181,17 +72,16 @@
   align-content: left;
   font-family: "Rajdhani", sans-serif;
   margin-top: 0%;
-  margin-left: 5%;
-  margin-right: 2%;
-  text-align: left;
   width: 100%;
   vertical-align: text-top;
 }
 
 .causeLink {
   font-weight: 500;
-  margin-bottom: 0;
+  text-align: left;
+  justify-content: left;
   margin-top: 0;
+  margin-bottom: .1vh;
   text-decoration: none;
   color: #282c34;
   font-family: "Rajdhani", sans-serif;
@@ -217,9 +107,11 @@
   color: #282c34;
 }
 
-.skillsTop {
+.skillsTop,
+.placesTop {
   display: flex;
   justify-self: right;
+  justify-content: right;
   font-size: 1.1rem;
   font-weight: 500;
   margin-left: 15%;
@@ -230,7 +122,8 @@
   color: black;
 }
 
-.skillsList {
+.skillsList,
+.placesList {
   display: flex;
   align-content: right;
   font-size: 1rem;
@@ -240,7 +133,8 @@
   color: black;
 }
 
-.skills__text {
+.skills__text,
+.places__text {
   display: flex;
   flex-direction: column;
   justify-self: right;
@@ -252,8 +146,9 @@
   vertical-align: text-top;
 }
 
-.skillsContainer {
-  margin-left: 50%;
+.skillsContainer,
+.placesContainer {
+  margin-left: 40%;
   display: flex;
   width: auto;
   justify-content: right;
@@ -265,7 +160,8 @@
 }
 
 .skillsList,
-.skillsTop {
+.placesList .skillsTop,
+.placesTop {
   display: flex;
   width: auto;
   justify-content: right;
@@ -276,15 +172,14 @@
   margin-top: 5%;
 }
 
-.skills__image {
+.skills__image,
+.places__image {
   display: flex;
   align-self: right;
   float: right;
-  width: 36%;
-  height: 36%;
-  margin-left: 8%;
+  margin-left: 6%;
   margin-right: 7%;
-  margin-top: 3%;
+  margin-top: 1%;
   vertical-align: 50%;
   box-shadow: 2vh 2vh 5vh rgba(0, 0, 0, 0.504);
 }
@@ -297,6 +192,7 @@
   .mobileLists,
   .placesContainer,
   .container,
+  .standForContainer,
   .skillsContainer {
     display: flex;
     justify-content: center;
@@ -309,18 +205,16 @@
     font-weight: 500;
     padding: 0%;
     max-width: 100%;
-    margin-right: 0%;
-    margin-left: 0%;
+    margin-right: 2%;
+    margin-left: 2%;
   }
 
-  .computer__image,
   .places__image,
   .plant__image,
   .skills__image {
     display: none;
   }
 
-  .techStackTop,
   .placesTop,
   .standForTop,
   .skillsTop {
@@ -354,11 +248,9 @@
     color: black;
   }
 
-  .techStack__text,
   .places__text,
   .standFor__text,
   .skills__text,
-  .techStackList,
   .placesList,
   .standForList,
   .skillsList,
