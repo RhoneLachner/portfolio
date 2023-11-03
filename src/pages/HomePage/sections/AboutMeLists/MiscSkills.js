@@ -16,15 +16,14 @@ const MiscSkills = () => {
             <div className="skills__text">
               <p className="skillsTop">Misc. Hobbies & Skills:</p>
               <p className="skillsList">
+                Creative Coding <br />
+                Web Design <br />
+                Music Composition & Performance <br />
+                Digital Photography <br />
                 Licensed Massage Therapy <br />
                 Western Herbal Medicine <br />
                 Ancestral survival skills <br />
-                Homesteading <br />
-                Sustainable Gardening <br />
-                Music Composition & Performance <br />
-                Digital Photography <br />
-                Self-Defense <br />
-                Astrology Readings <br />
+                Homesteading & Permaculture <br />
               </p>
             </div>
             <img

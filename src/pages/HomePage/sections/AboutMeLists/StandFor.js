@@ -1,5 +1,4 @@
 import React from "react";
-import { ExternalLink } from "react-external-link";
 import plant from "../../../../assets/images/about-me-plant-concrete.webp";
 import FadeInAnimation from "../../../../utils/animation/motionAnimation";
 import "./aboutMeLists.css";
@@ -13,9 +12,8 @@ const StandFor = () => {
           direction="right"
           className="standFor"
         >
-          <div className="container">
+          <div className="standForContainer">
             <img className="plant__image" src={plant} alt="plant growing"></img>
-
             <div className="standFor__text">
               <p className="standForTop">Things I stand for:</p>
               <p className="standForList">
@@ -28,24 +26,9 @@ const StandFor = () => {
                 Genuine connection and honesty in all things <br />
                 Accessibility in Web Design <br />
                 Holding people up! instead of pulling them down <br />
-                Building a non-hierarchal world together <br /> <br />
-                CAUSES TO DONATE TO LINKED BELOW: <br />
+                Building a non-hierarchal world together 
               </p>
-              <div className="standForLinkList">
-              <ExternalLink href="https://portlandrescuemission.org/">
-                  <p className="causeLink">Portland Rescue Mission</p>
-                </ExternalLink>{" "}
-                <br />
-                <ExternalLink href="https://bluemountainsbiodiversityproject.org/">
-                  <p className="causeLink">
-                    Blue Mountains Biodiversity Project
-                  </p>
-                </ExternalLink>{" "}
-                <br />
-                <ExternalLink href="https://translifeline.org/">
-                  <p className="causeLink">TransLifeline</p>
-                </ExternalLink>{" "}
-              </div>
+      
             </div>
           </div>
         </FadeInAnimation>

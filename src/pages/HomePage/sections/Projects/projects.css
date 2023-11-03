@@ -14,6 +14,8 @@ h2,
   font-size: 1.5rem;
   font-weight: 600;
   padding-top: 5%;
+  padding-right: 2vh;
+  padding-left: 2vh;
   margin-bottom: 2%;
 }
 
@@ -76,5 +78,14 @@ h2,
 
   .projectLink:hover {
     font-size: 1.4rem;
+  }
+
+  @media (max-device-width: 480px) {
+    .projectItemTitle {
+      margin-top: 5%;
+    }
+    .projectLink {
+      margin-bottom: 8%;
+    }
   }
 }
