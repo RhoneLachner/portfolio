@@ -32,8 +32,8 @@ const HomePage = () => {
         <AudioPlayer />
       </div>
 
-      <div className="titleName">
-        <h1>RHONE LACHNER</h1>
+      <div className="titleNameDiv">
+        <h1 className="titleText">RHONE LACHNER</h1>
       </div>
       <div>
         <div className="bannerLinks">

@@ -30,3 +30,10 @@
   position: relative;
   cursor: pointer;
 }
+
+@media (max-device-width: 480px) {
+  .circleImage,
+  .playPauseContainer {
+    display: none;
+  }
+}
