@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="appContainer">
       <Router>
         <Switch>
           <Route

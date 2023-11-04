@@ -40,7 +40,6 @@ const Bio = () => {
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
             Thank you for taking a look at my portfolio!
           </FadeInAnimation>
         </div>

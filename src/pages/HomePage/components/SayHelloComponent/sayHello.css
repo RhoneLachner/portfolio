@@ -78,26 +78,33 @@
 @media (max-device-width: 480px) {
   .sayHi {
     padding-bottom: 10vh;
+    margin: 0;
+    margin-top: 3vh;
   }
 
   .thankYouText {
     padding-top: 3vh;
-    font-size: 2.5rem;
+    font-size: 2.6vh;
   }
 
   .sayHiText {
-    padding-top: 11vh;
+    padding-top: 8vh;
     padding-bottom: 1vh;
-    font-size: 10rem;
+    font-size: 10vh;
   }
 
   #toTop,
   #contactHi {
-    padding: 1.5vh;
+    padding: 1.8vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 2.8vh;
+    margin-left: 2.8vh;
     font-weight: 500;
+    vertical-align: center;
     background-color: rgb(48, 48, 48);
     border: none;
     border-radius: 12px;
-    font-size: 2.8rem;
+    font-size: 2.6vh;
   }
 }
