@@ -1,87 +1,89 @@
-import React, { useRef, useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React, { useRef, useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const MotionAnimation = ({
   children,
-  wrapperElement = "div",
+  wrapperElement = 'div',
   direction = null,
   delay = 0,
   ...props
 }) => {
   const Component = wrapperElement;
-  let compRef = useRef(null);
+  const compRef = useRef(null);
   const distance = 800;
   let fadeDirection;
+
   switch (direction) {
-    case "left":
+    case 'left':
       fadeDirection = { x: -distance };
       break;
-    case "right":
+    case 'right':
       fadeDirection = { x: distance };
       break;
-    case "up":
-      fadeDirection = { y: distance };
-      break;
-    case "down":
+    case 'up':
       fadeDirection = { y: -distance };
+      break;
+    case 'down':
+      fadeDirection = { y: distance };
       break;
     default:
       fadeDirection = { x: 0 };
   }
 
   useEffect(() => {
-    document.body.style.overflowX = "hidden";
-    return () => {
-      document.body.style.overflowX = "";
-    };
-  }, []);
+    const currentRef = compRef.current; // Copies the current ref value to a variable
 
-  useEffect(() => {
     const handleResize = () => {
-      // If the viewport is less than 480px, kill the animations
-      if (window.matchMedia("(max-width: 480px)").matches) {
-        gsap.killTweensOf(compRef.current);
+      if (window.matchMedia('(max-width: 416px)').matches) {
+        gsap.killTweensOf(currentRef);
+        ScrollTrigger.getAll().forEach(trigger => {
+          if (trigger.trigger === currentRef) {
+            trigger.kill();
+          }
+        });
       } else {
-        // Only animate if the tween doesn't already exist
-        if (!ScrollTrigger.getById(compRef.current)) {
-          gsap.from(compRef.current, {
-            ...fadeDirection,
-            duration: 5,
-            scrollTrigger: {
-              id: compRef.current,
-              trigger: compRef.current,
-              start: "top bottom",
-              end: "bottom top",
-            },
-            opacity: 0,
-            delay,
-          });
-        }
+        gsap.from(currentRef, {
+          ...fadeDirection,
+          duration: 5,
+          scrollTrigger: {
+            trigger: currentRef,
+            start: 'top bottom',
+            end: 'bottom top',
+          },
+          opacity: 0,
+          delay,
+        });
       }
     };
 
-    // Add event listener for resize
-    window.addEventListener("resize", handleResize);
+    handleResize(); // on mount to handle initial size
+    window.addEventListener('resize', handleResize);
 
-    // Call the resize function to check initial viewport
-    handleResize();
-
-    // Clean up event listener
+    // removes the resize listener and kill animations
     return () => {
-      window.removeEventListener("resize", handleResize);
-      gsap.killTweensOf(compRef.current);
+      window.removeEventListener('resize', handleResize);
+      gsap.killTweensOf(currentRef);
+      ScrollTrigger.getAll().forEach(trigger => {
+        if (trigger.trigger === currentRef) {
+          trigger.kill();
+        }
+      });
     };
-  }, [compRef, fadeDirection, delay]);
+  }, [compRef, fadeDirection, delay]); // compRef is in the dependency array
+
+  // Prevent horizontal scrolling during animation
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
+    return () => {
+      document.body.style.overflowX = '';
+    };
+  }, []);
 
   return (
-    <Component
-      ref={compRef}
-      {...props}
-      style={{ overflowX: "hidden", ...props.style }}
-    >
+    <Component ref={compRef} {...props} style={{ overflowX: 'hidden', ...props.style }}>
       {children}
     </Component>
   );
