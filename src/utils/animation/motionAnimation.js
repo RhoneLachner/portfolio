@@ -31,7 +31,7 @@ const MotionAnimation = ({
     default:
       fadeDirection = { x: 0 };
   }
-  
+
   useEffect(() => {
     document.body.style.overflowX = "hidden";
     return () => {
@@ -40,16 +40,48 @@ const MotionAnimation = ({
   }, []);
 
   useEffect(() => {
-    gsap.from(compRef.current,  {
-      ...fadeDirection,
-      duration: 5,
-      scrollTrigger: compRef.current,
-      opacity: 0,
-      delay
-    });
+    const handleResize = () => {
+      // If the viewport is less than 480px, kill the animations
+      if (window.matchMedia("(max-width: 480px)").matches) {
+        gsap.killTweensOf(compRef.current);
+      } else {
+        // Only animate if the tween doesn't already exist
+        if (!ScrollTrigger.getById(compRef.current)) {
+          gsap.from(compRef.current, {
+            ...fadeDirection,
+            duration: 5,
+            scrollTrigger: {
+              id: compRef.current,
+              trigger: compRef.current,
+              start: "top bottom",
+              end: "bottom top",
+            },
+            opacity: 0,
+            delay,
+          });
+        }
+      }
+    };
+
+    // Add event listener for resize
+    window.addEventListener("resize", handleResize);
+
+    // Call the resize function to check initial viewport
+    handleResize();
+
+    // Clean up event listener
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      gsap.killTweensOf(compRef.current);
+    };
   }, [compRef, fadeDirection, delay]);
+
   return (
-    <Component ref={compRef} {...props} style={{ overflowX: "hidden", ...props.style }}>
+    <Component
+      ref={compRef}
+      {...props}
+      style={{ overflowX: "hidden", ...props.style }}
+    >
       {children}
     </Component>
   );
