@@ -84,27 +84,27 @@
 
   .thankYouText {
     padding-top: 3vh;
-    font-size: 2.6vh;
+    font-size: 20px;
   }
 
   .sayHiText {
     padding-top: 8vh;
     padding-bottom: 1vh;
-    font-size: 10vh;
+    font-size: 56px;
   }
 
   #toTop,
   #contactHi {
-    padding: 1.8vh;
+    padding: 14px;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 2.8vh;
-    margin-left: 2.8vh;
+    margin-right: 16px;
+    margin-left: 16px;
     font-weight: 500;
     vertical-align: center;
     background-color: rgb(48, 48, 48);
     border: none;
     border-radius: 12px;
-    font-size: 2.6vh;
+    font-size: 20px;
   }
 }
