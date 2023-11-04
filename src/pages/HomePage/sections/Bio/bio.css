@@ -31,7 +31,7 @@ p {
 
   .rhoneIs {
     display: flex;
-    font-size: 3vh;
+    font-size: 18px;
     max-width: 100%;
     justify-content: center;
     padding-left: 2vh;
@@ -43,7 +43,7 @@ p {
 
   .bioText {
     width: 84%;
-    font-size: 2.8vh;
+    font-size: 16px;
     padding-bottom: 2vh;
     margin: 0;
   }
